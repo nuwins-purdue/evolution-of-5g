@@ -1,28 +1,91 @@
 <!DOCTYPE HTML>
 <script>
-	function ipLookUp () {
-		$.ajax('http://ip-api.com/json')
-		.then(
-			function success(response) {
-				console.log('User\'s Location Data is ', response);
-				console.log('User\'s Country', response.country);
-				// document.getElementById("para1").innerHTML = "Cellular Data Statistics: " + response.country;
-				document.getElementById("heading1").innerHTML = "Overall network performance of all operators in " + response.country;
-				document.getElementById("heading2").innerHTML = "Network performance of top 10 cities in " + response.country + " (5G mmWave)";
-				document.getElementById("heading3").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + response.country;
-				document.getElementById("heading4").innerHTML = "Network performance of top 10 cities in " + response.country + " (5G sub-6 GHz)" ;
-				document.getElementById("heading5").innerHTML = "Network perfromance trend in the " + response.country;
+	// function ipLookUp () {
+	// 	$.ajax('http://ip-api.com/json')
+	// 	.then(
+	// 		function success(response) {
+	// 			console.log('User\'s Location Data is ', response);
+	// 			console.log('User\'s Country', response.country);
+	// 			// document.getElementById("para1").innerHTML = "Cellular Data Statistics: " + response.country;
+	// 			document.getElementById("heading1").innerHTML = "Overall network performance of all operators in " + response.country;
+	// 			document.getElementById("heading2").innerHTML = "Network performance of top 10 cities in " + response.country + " (5G mmWave)";
+	// 			document.getElementById("heading3").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + response.country;
+	// 			document.getElementById("heading4").innerHTML = "Network performance of top 10 cities in " + response.country + " (5G sub-6 GHz)" ;
+	// 			document.getElementById("heading5").innerHTML = "Network perfromance trend in the " + response.country;
 
 				
-			},
+	// 		},
 
-			function fail(data, status) {
-				console.log('Request failed.  Returned status of',
-							status);
-			}
-		);
+	// 		function fail(data, status) {
+	// 			console.log('Request failed.  Returned status of',
+	// 						status);
+	// 		}
+	// 	);
+	// }
+	function findMyState () {
+		// const status = document.querySelector('.status');
+		
+		function success (position) {
+			// console.log(position)
+			const latitude = position.coords.latitude;
+			const longitude = position.coords.longitude;
+			const geoApiUrl = 'https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=en'
+
+			fetch(geoApiUrl)
+			.then(res => res.json())
+			.then(data => {
+				// console.log(data)
+				console.log(data.countryName)
+				document.getElementById("main").style.display = "block";
+				document.getElementById("loaderIcon").style.display = "none";
+				document.getElementById("loaderHeader").style.display = "none";
+				document.getElementById("heading1").innerHTML = "Overall network performance of all operators in " + data.countryName;
+				document.getElementById("heading2").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G mmWave)";
+				document.getElementById("heading3").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + data.countryName;
+				document.getElementById("heading4").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G sub-6 GHz)" ;
+				document.getElementById("heading5").innerHTML = "Network perfromance trend in the " + data.countryName;
+			})
+		}
+
+		function error () {
+			status.textContent = 'Unable to retrieve your location';
+			alert('Unable to retrieve your location');
+		}
+
+		if (!navigator.geolocation) {
+			status.textContent = 'Geolocation is not supported by your browser';
+			alert('Geolocation is not supported by your browser');
+		}
+		else {
+			status.textContent = 'Locating…';
+    		navigator.geolocation.getCurrentPosition(success, error);
+		}
 	}
 </script>
+<style>
+	.loader {
+	border: 5px solid #7a7676;
+	border-radius: 30%;
+	border-top: 5px solid #3498db;
+	width: 30px;
+	height: 30px;
+	-webkit-animation: spin 2s linear infinite; /* Safari */
+	animation: spin 2s linear infinite;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	/* Safari */
+	@-webkit-keyframes spin {
+	0% { -webkit-transform: rotate(0deg); }
+	100% { -webkit-transform: rotate(360deg); }
+	}
+
+	@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+</style>
 <html>
 	<head>
 		<title>Evolution of 5G</title>
@@ -30,7 +93,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="landing is-preload" onload="ipLookUp()">
+	<body class="landing is-preload" onload="findMyState()">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -48,7 +111,7 @@
 				</section>
 
 			<!-- Main -->
-				<section id="main" class="container">
+				<section id="main" class="container" style="display: none">
 
 					<section class="box special">
 						<header class="major">
@@ -186,6 +249,8 @@
 						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
 					</ul> -->
+					<div class="loader" id="loaderIcon"></div>
+					<h3 id="loaderHeader">Loading ...</h3>
 					<ul class="copyright">
 						<li>&copy; NUWiNS Lab.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
