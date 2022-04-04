@@ -48,12 +48,12 @@
 		}
 
 		function error () {
-			status.textContent = 'Unable to retrieve your location';
+			status.textContent = 'Unable to retrieve your location!';
 			alert('Unable to retrieve your location');
 		}
 
 		if (!navigator.geolocation) {
-			status.textContent = 'Geolocation is not supported by your browser';
+			status.textContent = 'Geolocation is not supported by your browser!';
 			alert('Geolocation is not supported by your browser');
 		}
 		else {
