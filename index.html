@@ -39,6 +39,7 @@
 				document.getElementById("main").style.display = "block";
 				document.getElementById("loaderIcon").style.display = "none";
 				document.getElementById("loaderHeader").style.display = "none";
+				document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + data.countryName + " across all the available operators.";
 				document.getElementById("heading1").innerHTML = "Overall network performance of all operators in " + data.countryName;
 				document.getElementById("heading2").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G mmWave)";
 				document.getElementById("heading3").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + data.countryName;
@@ -48,12 +49,12 @@
 		}
 
 		function error () {
-			status.textContent = 'Unable to retrieve your location!';
+			status.textContent = 'Unable to retrieve your location';
 			alert('Unable to retrieve your location');
 		}
 
 		if (!navigator.geolocation) {
-			status.textContent = 'Geolocation is not supported by your browser!';
+			status.textContent = 'Geolocation is not supported by your browser';
 			alert('Geolocation is not supported by your browser');
 		}
 		else {
@@ -118,9 +119,11 @@
 							<h2>Evolution of 5G networks
 							<br />
 							</h2>
-							<h4>This is a crowd sourced project jointly initiated by the Northeastern University WiNS lab and the Purdue University.
+							<h4 id="heading0">This is a crowd sourced project jointly initiated by the <a href="https://ece.northeastern.edu/fac-ece/dkoutsonikolas/nuwins/">Northeastern University WiNS lab</a> and the <a href="https://engineering.purdue.edu/~ychu/">Purdue University</a>.
 								<br />
-								We present the cellular network performance of the existing network technologies in the current country across all the available operators.
+								We collect uplink cellular network measurements from users across the globe using our <a href="#">application</a>.
+								<br />
+								We present the cellular network performance of the existing network technologies in 
 							</h4>
 							<!-- <p id="para1"></p> -->
 						</header>
@@ -158,7 +161,6 @@
 							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
 								<embed src="images/performance_plots/usa/mobility.jpg" width="230%" height="250%" />
-								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
 							</section>
 						</div>
 					</section>
@@ -169,7 +171,6 @@
 							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
 								<embed src="images/performance_plots/usa/top_10_cities_sub6_throughput.jpg" width="100%" height="250%" />
-								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
 							</section>
 							<section>
 								<embed src="images/performance_plots/usa/top_10_cities_sub6_latency.jpg" width="100%" height="250%" />
@@ -180,12 +181,9 @@
 						<!-- <h3>Network perfromance trend in the United States</h3> -->
 						<h3 id="heading5"></h3>
 						<div class="features-row">
-							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
 								<embed src="images/performance_plots/usa/performance_trend.jpg" width="230%" height="250%" />
 								<!-- placeholder for latency -->
-								<embed src="images/performance_plots/usa/performance_trend.jpg" width="230%" height="250%" />
-								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
 							</section>
 						</div>
 					</section>
