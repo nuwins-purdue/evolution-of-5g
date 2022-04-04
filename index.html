@@ -1,4 +1,28 @@
 <!DOCTYPE HTML>
+<script>
+	function ipLookUp () {
+		$.ajax('http://ip-api.com/json')
+		.then(
+			function success(response) {
+				console.log('User\'s Location Data is ', response);
+				console.log('User\'s Country', response.country);
+				// document.getElementById("para1").innerHTML = "Cellular Data Statistics: " + response.country;
+				document.getElementById("heading1").innerHTML = "Overall network performance of all operators in " + response.country;
+				document.getElementById("heading2").innerHTML = "Network performance of top 10 cities in " + response.country + " (5G mmWave)";
+				document.getElementById("heading3").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + response.country;
+				document.getElementById("heading4").innerHTML = "Network performance of top 10 cities in " + response.country + " (5G sub-6 GHz)" ;
+				document.getElementById("heading5").innerHTML = "Network perfromance trend in the " + response.country;
+
+				
+			},
+
+			function fail(data, status) {
+				console.log('Request failed.  Returned status of',
+							status);
+			}
+		);
+	}
+</script>
 <html>
 	<head>
 		<title>Evolution of 5G</title>
@@ -6,7 +30,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="landing is-preload">
+	<body class="landing is-preload" onload="ipLookUp()">
 		<div id="page-wrapper">
 
 			<!-- Header -->
@@ -15,36 +39,12 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="index.html">Contact Us</a></li>
-							<!-- <li>
-								<a href="#" class="icon solid fa-angle-down">Layouts</a>
-								<ul>
-									<li><a href="generic.html">Generic</a></li>
-									<li><a href="contact.html">Contact</a></li>
-									<li><a href="elements.html">Elements</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option One</a></li>
-											<li><a href="#">Option Two</a></li>
-											<li><a href="#">Option Three</a></li>
-											<li><a href="#">Option Four</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="#" class="button">Sign Up</a></li> -->
 						</ul>
 					</nav>
 				</header>
 
 			<!-- Banner -->
 				<section id="banner">
-					<!-- <h2>Alpha</h2>
-					<p>Another fine responsive site template freebie by HTML5 UP.</p>
-					<ul class="actions special">
-						<li><a href="#" class="button primary">Sign Up</a></li>
-						<li><a href="#" class="button">Learn More</a></li>
-					</ul> -->
 				</section>
 
 			<!-- Main -->
@@ -55,39 +55,80 @@
 							<h2>Evolution of 5G networks
 							<br />
 							</h2>
-							<p>Cellular Data Statistics: United States</p>
+							<h4>This is a crowd sourced project jointly initiated by the Northeastern University WiNS lab and the Purdue University.
+								<br />
+								We present the cellular network performance of the existing network technologies in the current country across all the available operators.
+							</h4>
+							<!-- <p id="para1"></p> -->
 						</header>
-						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
 					</section>
 
 					<section class="box special features">
+						<h3 id="heading1"></h3>
 						<div class="features-row">
 							<section>
-								<span class="icon solid major fa-bolt accent2"></span>
-								<h3>Magna etiam</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+								<embed src="images/performance_plots/usa/overall_country_throughput.jpg" width="100%" height="250%" />
 							</section>
 							<section>
-								<span class="icon solid major fa-chart-area accent3"></span>
-								<h3>Ipsum dolor</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+								<embed src="images/performance_plots/usa/overall_country_latency.jpg" width="100%" height="250%" />
 							</section>
 						</div>
+					</section>
+					<section class="box special features">
+						<!-- <h3>Network performance of top 10 cities in the United States (5G mmWave)</h3> -->
+						<h3 id="heading2"></h3>
 						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
-								<span class="icon solid major fa-cloud accent4"></span>
-								<h3>Sed feugiat</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+								<embed src="images/performance_plots/usa/top_10_cities_mmwave_throughput.jpg" width="100%" height="250%" />
+								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
 							</section>
 							<section>
-								<span class="icon solid major fa-lock accent5"></span>
-								<h3>Enim phasellus</h3>
-								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+								<embed src="images/performance_plots/usa/top_10_cities_mmwave_latency.jpg" width="100%" height="250%" />
+							</section>
+						</div>
+					</section>
+					<section class="box special features">
+						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
+						<h3 id="heading3"></h3>
+						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
+							<section>
+								<embed src="images/performance_plots/usa/mobility.jpg" width="230%" height="250%" />
+								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
+							</section>
+						</div>
+					</section>
+					<section class="box special features">
+						<!-- <h3>Network performance of top 10 cities in the United States (5G sub-6 GHz)</h3> -->
+						<h3 id="heading4"></h3>
+						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
+							<section>
+								<embed src="images/performance_plots/usa/top_10_cities_sub6_throughput.jpg" width="100%" height="250%" />
+								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
+							</section>
+							<section>
+								<embed src="images/performance_plots/usa/top_10_cities_sub6_latency.jpg" width="100%" height="250%" />
+							</section>
+						</div>
+					</section>
+					<section class="box special features">
+						<!-- <h3>Network perfromance trend in the United States</h3> -->
+						<h3 id="heading5"></h3>
+						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
+							<section>
+								<embed src="images/performance_plots/usa/performance_trend.jpg" width="230%" height="250%" />
+								<!-- placeholder for latency -->
+								<embed src="images/performance_plots/usa/performance_trend.jpg" width="230%" height="250%" />
+								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
 							</section>
 						</div>
 					</section>
 
-					<div class="row">
+
+					<!-- <div class="row">
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
@@ -112,12 +153,12 @@
 							</section>
 
 						</div>
-					</div>
+					</div> -->
 
 				</section>
 
 			<!-- CTA -->
-				<section id="cta">
+				<!-- <section id="cta">
 
 					<h2>Sign up for beta access</h2>
 					<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
@@ -133,23 +174,22 @@
 						</div>
 					</form>
 
-				</section>
+				</section> -->
 
 			<!-- Footer -->
 				<footer id="footer">
-					<ul class="icons">
+					<!-- <ul class="icons">
 						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
 						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
-					</ul>
+					</ul> -->
 					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; NUWiNS Lab.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</footer>
-
 		</div>
 
 		<!-- Scripts -->
@@ -160,6 +200,5 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
