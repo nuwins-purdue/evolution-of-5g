@@ -23,7 +23,9 @@
 	// 	);
 	// }
 	var country="check";
+	// var country_dict = {
 
+	// }
 	function findMyState () {
 		// const status = document.querySelector('.status');
 		function success (position) {
@@ -38,6 +40,16 @@
 				// console.log(data)
 				
 				console.log(data.countryName)
+				country=data.countryName;
+				var allElements = document.getElementsByClassName("img_class");
+				var allIds = [];
+				for (var i = 0, n = allElements.length; i < n; ++i) {
+					var el = allElements[i];
+					// console.log(el.src)
+					el.src = el.src.replace("country_placeholder", country);
+					// if (el.id) { allIds.push(el.id); }
+				}
+				console.log("Country Changed!");
 				document.getElementById("main").style.display = "block";
 				document.getElementById("loaderIcon").style.display = "none";
 				document.getElementById("loaderHeader").style.display = "none";
@@ -51,7 +63,7 @@
 				document.getElementById("heading_lte_mobility").innerHTML = "LTE performance in diverse user mobility scenarios in " + data.countryName;
 				document.getElementById("heading5").innerHTML = "Network perfromance trend in " + data.countryName;
 				document.getElementById("defaultOpen").click();
-				country=data.countryName;
+
 			})
 		}
 
@@ -208,10 +220,10 @@
 						<h3 id="heading_overall"></h3>
 						<div class="features-row">
 							<section>
-								<embed src="images/performance_plots/United States of America/overall_country_throughput.jpg" width="100%" height="250%" />
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_throughput.jpg" width="100%" height="250%" />
 							</section>
 							<section>
-								<embed src="images/performance_plots/United States of America/overall_country_latency.jpg" width="100%" height="250%" />
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_latency.jpg" width="100%" height="250%" />
 							</section>
 						</div>
 					</section>
@@ -221,11 +233,11 @@
 						<div class="features-row">
 							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
-								<embed src="images/performance_plots/United States of America/top_10_cities_mmwave_throughput.jpg" width="100%" height="250%" />
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_throughput.jpg" width="100%" height="250%" />
 								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
 							</section>
 							<section>
-								<embed src="images/performance_plots/United States of America/top_10_cities_mmwave_latency.jpg" width="100%" height="250%" />
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_latency.jpg" width="100%" height="250%" />
 							</section>
 						</div>
 					</section>
@@ -235,9 +247,9 @@
 						<div class="features-row">
 							<!-- <h3>5G mmWave</h3>	 -->
 							<!-- <section>
-								<embed src="images/performance_plots/United States of America/mobility.jpg" width="230%" height="250%" />
+								<embed src="images/performance_plots/country_placeholder/mobility.jpg" width="230%" height="250%" />
 							</section> -->
-							<embed src="images/performance_plots/United States of America/mobility.jpg" width="100%" height="100%" />
+							<embed class = "img_class" src="images/performance_plots/country_placeholder/mobility.jpg" width="100%" height="100%" />
 
 						</div>
 					</section>
@@ -247,10 +259,10 @@
 						<div class="features-row">
 							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
-								<embed src="images/performance_plots/United States of America/top_10_cities_sub6_throughput.jpg" width="100%" height="250%" />
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_throughput.jpg" width="100%" height="250%" />
 							</section>
 							<section>
-								<embed src="images/performance_plots/United States of America/top_10_cities_sub6_latency.jpg" width="100%" height="250%" />
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_latency.jpg" width="100%" height="250%" />
 							</section>
 						</div>
 					</section>
@@ -260,9 +272,9 @@
 						<div class="features-row">
 							<!-- <h3>5G mmWave</h3>	 -->
 							<!-- <section>
-								<embed src="images/performance_plots/United States of America/mobility_sub6.jpg" width="230%" height="250%" />
+								<embed src="images/performance_plots/country_placeholder/mobility_sub6.jpg" width="230%" height="250%" />
 							</section> -->
-							<embed src="images/performance_plots/United States of America/mobility_sub6.jpg" width="100%" height="100%" />
+							<embed class = "img_class" src="images/performance_plots/country_placeholder/mobility_sub6.jpg" width="100%" height="100%" />
 
 						</div>
 					</section>
@@ -273,10 +285,10 @@
 						<div class="features-row">
 							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
-								<embed src="images/performance_plots/United States of America/top_10_cities_lte_throughput.jpg" width="100%" height="250%" />
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_throughput.jpg" width="100%" height="250%" />
 							</section>
 							<section>
-								<embed src="images/performance_plots/United States of America/top_10_cities_lte_latency.jpg" width="100%" height="250%" />
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_latency.jpg" width="100%" height="250%" />
 							</section>
 						</div>
 					</section>
@@ -286,9 +298,9 @@
 						<div class="features-row">
 							<!-- <h3>5G mmWave</h3>	 -->
 							<!-- <section>
-								<embed src="images/performance_plots/United States of America/mobility_lte.jpg" width="230%" height="250%" />
+								<embed src="images/performance_plots/country_placeholder/mobility_lte.jpg" width="230%" height="250%" />
 							</section> -->
-							<embed src="images/performance_plots/United States of America/mobility_lte.jpg" width="100%" height="100%" />
+							<embed class = "img_class" src="images/performance_plots/country_placeholder/mobility_lte.jpg" width="100%" height="100%" />
 
 						</div>
 					</section>
@@ -298,7 +310,7 @@
 						<h3 id="heading5"></h3>
 						<div class="features-row">
 							<!-- <section>
-								<embed src="images/performance_plots/United States of America/performance_trend.jpg" width="230%" height="250%" />
+								<embed src="images/performance_plots/country_placeholder/performance_trend.jpg" width="230%" height="250%" />
 							</section> -->
 							<div class="tab">
 								<button class="tablinks" onclick="openPerformancePlot(event, 'Static')" id="defaultOpen">Static</button>
@@ -307,13 +319,13 @@
 							</div>
 								<!-- Tab content -->
 								<div id="Static" class="tabcontent">
-									<embed src="images/performance_plots/United States of America/performance_trend_static.jpg" width="100%" height="100%"/>
+									<embed class = "img_class" src="images/performance_plots/country_placeholder/performance_trend_static.jpg" width="100%" height="100%"/>
 								</div>
 								<div id="Walking" class="tabcontent">
-									<embed src="images/performance_plots/United States of America/performance_trend_walking.jpg" width="100%" height="100%" />
+									<embed class = "img_class" src="images/performance_plots/country_placeholder/performance_trend_walking.jpg" width="100%" height="100%" />
 								</div>
 								<div id="Driving" class="tabcontent">
-									<embed src="images/performance_plots/United States of America/performance_trend_driving.jpg" width="100%" height="100%" />
+									<embed class = "img_class" src="images/performance_plots/country_placeholder/performance_trend_driving.jpg" width="100%" height="100%" />
 								</div>
 						</div>
 					</section>
