@@ -65,7 +65,7 @@
 		}
 
 		function error () {
-			status.textContent = 'Unable to retrieve your location';
+			status.textContent = 'Unable to retrieve your location!';
 			// alert('Unable to retrieve your location');
 			document.getElementById("loaderIcon").style.display = "none";
 			document.getElementById("loaderHeader").style.display = "none";
@@ -73,7 +73,7 @@
 		}
 
 		if (!navigator.geolocation) {
-			status.textContent = 'Geolocation is not supported by your browser';
+			status.textContent = 'Geolocation is not supported by your browser!';
 			// alert('Geolocation is not supported by your browser');
 			document.getElementById("loaderIcon").style.display = "none";
 			document.getElementById("loaderHeader").style.display = "none";
