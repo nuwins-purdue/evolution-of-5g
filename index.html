@@ -22,9 +22,10 @@
 	// 		}
 	// 	);
 	// }
+	var country="check";
+
 	function findMyState () {
 		// const status = document.querySelector('.status');
-		
 		function success (position) {
 			// console.log(position)
 			const latitude = position.coords.latitude;
@@ -35,57 +36,131 @@
 			.then(res => res.json())
 			.then(data => {
 				// console.log(data)
+				
 				console.log(data.countryName)
 				document.getElementById("main").style.display = "block";
 				document.getElementById("loaderIcon").style.display = "none";
 				document.getElementById("loaderHeader").style.display = "none";
 				document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + data.countryName + " across all the available operators.";
-				document.getElementById("heading1").innerHTML = "Overall network performance of all operators in " + data.countryName;
-				document.getElementById("heading2").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G mmWave)";
-				document.getElementById("heading3").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + data.countryName;
-				document.getElementById("heading4").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G sub-6 GHz)" ;
-				document.getElementById("heading5").innerHTML = "Network perfromance trend in the " + data.countryName;
+				document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + data.countryName;
+				document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G mmWave)";
+				document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + data.countryName;
+				document.getElementById("heading_sub6_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G sub-6 GHz)" ;
+				document.getElementById("heading_sub6_mobility").innerHTML = "5G sub-6 Ghz performance in diverse user mobility scenarios in " + data.countryName;
+				document.getElementById("heading_lte_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (LTE)" ;
+				document.getElementById("heading_lte_mobility").innerHTML = "LTE performance in diverse user mobility scenarios in " + data.countryName;
+				document.getElementById("heading5").innerHTML = "Network perfromance trend in " + data.countryName;
+				document.getElementById("defaultOpen").click();
+				country=data.countryName;
 			})
 		}
 
 		function error () {
-			status.textContent = 'Unable to retrieve your location!';
-			alert('Unable to retrieve your location!');
+			status.textContent = 'Unable to retrieve your location';
+			alert('Unable to retrieve your location');
 		}
 
 		if (!navigator.geolocation) {
-			status.textContent = 'Geolocation is not supported by your browser!';
-			alert('Geolocation is not supported by your browser!');
+			status.textContent = 'Geolocation is not supported by your browser';
+			alert('Geolocation is not supported by your browser');
 		}
 		else {
 			status.textContent = 'Locating…';
     		navigator.geolocation.getCurrentPosition(success, error);
 		}
 	}
+
+	function openPerformancePlot(evt, cityName) {
+		// Declare all variables
+		var i, tabcontent, tablinks;
+
+		// Get all elements with class="tabcontent" and hide them
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+
+		// Get all elements with class="tablinks" and remove the class "active"
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+
+		// Show the current tab, and add an "active" class to the button that opened the tab
+		document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+	
 </script>
 <style>
 	.loader {
-	border: 5px solid #7a7676;
-	border-radius: 30%;
-	border-top: 5px solid #3498db;
-	width: 30px;
-	height: 30px;
-	-webkit-animation: spin 2s linear infinite; /* Safari */
-	animation: spin 2s linear infinite;
-	margin-left: auto;
-	margin-right: auto;
+		border: 5px solid #7a7676;
+		border-radius: 30%;
+		border-top: 5px solid #3498db;
+		width: 30px;
+		height: 30px;
+		-webkit-animation: spin 2s linear infinite; /* Safari */
+		animation: spin 2s linear infinite;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+		/* Safari */
+		@-webkit-keyframes spin {
+		0% { -webkit-transform: rotate(0deg); }
+		100% { -webkit-transform: rotate(360deg); }
+		}
+
+		@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
 	}
 
-	/* Safari */
-	@-webkit-keyframes spin {
-	0% { -webkit-transform: rotate(0deg); }
-	100% { -webkit-transform: rotate(360deg); }
-	}
+		/* Style the tab */
+		.tab {
+		overflow: hidden;
+		border: 1px solid #ccc;
+		background-color: #f1f1f1;
+		}
 
-	@keyframes spin {
-	0% { transform: rotate(0deg); }
-	100% { transform: rotate(360deg); }
-}
+		/* Style the buttons that are used to open the tab content */
+		.tab button {
+		background-color: inherit;
+		float: left;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 14px 16px;
+		transition: 0.3s;
+		}
+
+		/* Change background color of buttons on hover */
+		.tab button:hover {
+		background-color: #ddd;
+		}
+
+		/* Create an active/current tablink class */
+		.tab button.active {
+		background-color: #ccc;
+		}
+
+		/* Style the tab content */
+		.tabcontent {
+		display: none;
+		padding: 6px 12px;
+		border: 1px solid #ccc;
+		border-top: none;
+		}
+		.tabcontent {
+  			animation: fadeEffect 1s; /* Fading effect takes 1 second */
+		}
+
+		/* Go from zero to full opacity */
+		@keyframes fadeEffect {
+		from {opacity: 0;}
+		to {opacity: 1;}
+		}
+
 </style>
 <html>
 	<head>
@@ -130,61 +205,110 @@
 					</section>
 
 					<section class="box special features">
-						<h3 id="heading1"></h3>
+						<h3 id="heading_overall"></h3>
 						<div class="features-row">
 							<section>
-								<embed src="images/performance_plots/usa/overall_country_throughput.jpg" width="100%" height="250%" />
+								<embed src="images/performance_plots/United States of America/overall_country_throughput.jpg" width="100%" height="250%" />
 							</section>
 							<section>
-								<embed src="images/performance_plots/usa/overall_country_latency.jpg" width="100%" height="250%" />
+								<embed src="images/performance_plots/United States of America/overall_country_latency.jpg" width="100%" height="250%" />
 							</section>
 						</div>
 					</section>
 					<section class="box special features">
 						<!-- <h3>Network performance of top 10 cities in the United States (5G mmWave)</h3> -->
-						<h3 id="heading2"></h3>
+						<h3 id="heading_mmWave_top10"></h3>
 						<div class="features-row">
 							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
-								<embed src="images/performance_plots/usa/top_10_cities_mmwave_throughput.jpg" width="100%" height="250%" />
+								<embed src="images/performance_plots/United States of America/top_10_cities_mmwave_throughput.jpg" width="100%" height="250%" />
 								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
 							</section>
 							<section>
-								<embed src="images/performance_plots/usa/top_10_cities_mmwave_latency.jpg" width="100%" height="250%" />
+								<embed src="images/performance_plots/United States of America/top_10_cities_mmwave_latency.jpg" width="100%" height="250%" />
 							</section>
 						</div>
 					</section>
 					<section class="box special features">
 						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
-						<h3 id="heading3"></h3>
+						<h3 id="heading_mmWave_mobility"></h3>
 						<div class="features-row">
 							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
-								<embed src="images/performance_plots/usa/mobility.jpg" width="230%" height="250%" />
+								<embed src="images/performance_plots/United States of America/mobility.jpg" width="230%" height="250%" />
 							</section>
 						</div>
 					</section>
 					<section class="box special features">
 						<!-- <h3>Network performance of top 10 cities in the United States (5G sub-6 GHz)</h3> -->
-						<h3 id="heading4"></h3>
+						<h3 id="heading_sub6_top10"></h3>
 						<div class="features-row">
 							<!-- <h3>5G mmWave</h3>	 -->
 							<section>
-								<embed src="images/performance_plots/usa/top_10_cities_sub6_throughput.jpg" width="100%" height="250%" />
+								<embed src="images/performance_plots/United States of America/top_10_cities_sub6_throughput.jpg" width="100%" height="250%" />
 							</section>
 							<section>
-								<embed src="images/performance_plots/usa/top_10_cities_sub6_latency.jpg" width="100%" height="250%" />
+								<embed src="images/performance_plots/United States of America/top_10_cities_sub6_latency.jpg" width="100%" height="250%" />
 							</section>
 						</div>
 					</section>
 					<section class="box special features">
+						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
+						<h3 id="heading_sub6_mobility"></h3>
+						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
+							<section>
+								<embed src="images/performance_plots/United States of America/mobility_sub6.jpg" width="230%" height="250%" />
+							</section>
+						</div>
+					</section>
+					<!-- LTE -->
+					<section class="box special features">
+						<!-- <h3>Network performance of top 10 cities in the United States (5G sub-6 GHz)</h3> -->
+						<h3 id="heading_lte_top10"></h3>
+						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
+							<section>
+								<embed src="images/performance_plots/United States of America/top_10_cities_lte_throughput.jpg" width="100%" height="250%" />
+							</section>
+							<section>
+								<embed src="images/performance_plots/United States of America/top_10_cities_lte_latency.jpg" width="100%" height="250%" />
+							</section>
+						</div>
+					</section>
+					<section class="box special features">
+						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
+						<h3 id="heading_lte_mobility"></h3>
+						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
+							<section>
+								<embed src="images/performance_plots/United States of America/mobility_lte.jpg" width="230%" height="250%" />
+							</section>
+						</div>
+					</section>
+					<!-- LTE end -->
+					<section class="box special features">
 						<!-- <h3>Network perfromance trend in the United States</h3> -->
 						<h3 id="heading5"></h3>
 						<div class="features-row">
-							<section>
-								<embed src="images/performance_plots/usa/performance_trend.jpg" width="230%" height="250%" />
-								<!-- placeholder for latency -->
-							</section>
+							<!-- <section>
+								<embed src="images/performance_plots/United States of America/performance_trend.jpg" width="230%" height="250%" />
+							</section> -->
+							<div class="tab">
+								<button class="tablinks" onclick="openPerformancePlot(event, 'Static')" id="defaultOpen">Static</button>
+								<button class="tablinks" onclick="openPerformancePlot(event, 'Walking')">Walking</button>
+								<button class="tablinks" onclick="openPerformancePlot(event, 'Driving')">Driving</button>
+							</div>
+								<!-- Tab content -->
+								<div id="Static" class="tabcontent">
+									<embed src="images/performance_plots/United States of America/performance_trend_static.jpg" width="100%" height="100%"/>
+								</div>
+								<div id="Walking" class="tabcontent">
+									<embed src="images/performance_plots/United States of America/performance_trend_walking.jpg" width="100%" height="100%" />
+								</div>
+								<div id="Driving" class="tabcontent">
+									<embed src="images/performance_plots/United States of America/performance_trend_driving.jpg" width="100%" height="100%" />
+								</div>
 						</div>
 					</section>
 
