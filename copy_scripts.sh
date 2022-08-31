@@ -1,4 +1,5 @@
 cp -r ../Output/* ./images/performance_plots/
+cp images/performance_plots/United\ States/* images/performance_plots/United\ States\ of\ America/
 cp images/performance_plots/worldwide/worlwide_stats.jpg images/performance_plots/Denmark/
 cp images/performance_plots/worldwide/worlwide_stats.jpg images/performance_plots/Deutschland/
 cp images/performance_plots/worldwide/worlwide_stats.jpg images/performance_plots/Germany/
