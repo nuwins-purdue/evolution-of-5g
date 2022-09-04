@@ -1,0 +1,377 @@
+<!DOCTYPE HTML>
+<script>
+	var country="check";
+	function findMyState () {
+			country="Greece";
+			var allElements = document.getElementsByClassName("img_class");
+			var allIds = [];
+			for (var i = 0, n = allElements.length; i < n; ++i) {
+				var el = allElements[i];
+				// console.log(el.src)
+				el.src = el.src.replace("country_placeholder", country);
+				// if (el.id) { allIds.push(el.id); }
+			}
+			console.log("Country is Greece!");
+			document.getElementById("main").style.display = "block";
+			document.getElementById("loaderIcon").style.display = "none";
+			document.getElementById("loaderHeader").style.display = "none";
+			document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + country + " across all the available operators from May 2022.";
+			document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + country;
+			document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + country + " (5G mmWave)";
+			document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + country;
+			document.getElementById("heading_sub6_top10").innerHTML = "Network performance of top 10 cities in " + country + " (5G sub-6 GHz)" ;
+			document.getElementById("heading_sub6_mobility").innerHTML = "5G sub-6 Ghz performance in diverse user mobility scenarios in " + country;
+			document.getElementById("heading_lte_top10").innerHTML = "Network performance of top 10 cities in " + country + " (LTE)" ;
+			document.getElementById("heading_lte_mobility").innerHTML = "LTE performance in diverse user mobility scenarios in " + country;
+			document.getElementById("heading5").innerHTML = "Network perfromance trend in " + country;
+			document.getElementById("defaultOpen").click();
+	}
+
+	function openPerformancePlot(evt, cityName) {
+		// Declare all variables
+		var i, tabcontent, tablinks;
+
+		// Get all elements with class="tabcontent" and hide them
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+
+		// Get all elements with class="tablinks" and remove the class "active"
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+
+		// Show the current tab, and add an "active" class to the button that opened the tab
+		document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+	
+</script>
+<style>
+	.loader {
+		border: 5px solid #7a7676;
+		border-radius: 30%;
+		border-top: 5px solid #3498db;
+		width: 30px;
+		height: 30px;
+		-webkit-animation: spin 2s linear infinite; /* Safari */
+		animation: spin 2s linear infinite;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+		/* Safari */
+		@-webkit-keyframes spin {
+		0% { -webkit-transform: rotate(0deg); }
+		100% { -webkit-transform: rotate(360deg); }
+		}
+
+		@keyframes spin {
+		0% { transform: rotate(0deg); }
+		100% { transform: rotate(360deg); }
+	}
+
+		/* Style the tab */
+		.tab {
+		overflow: hidden;
+		border: 1px solid #ccc;
+		background-color: #f1f1f1;
+		}
+
+		/* Style the buttons that are used to open the tab content */
+		.tab button {
+		background-color: inherit;
+		float: left;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding: 14px 16px;
+		transition: 0.3s;
+		}
+
+		/* Change background color of buttons on hover */
+		.tab button:hover {
+		background-color: #ddd;
+		}
+
+		/* Create an active/current tablink class */
+		.tab button.active {
+		background-color: #ccc;
+		}
+
+		/* Style the tab content */
+		.tabcontent {
+		display: none;
+		padding: 6px 12px;
+		border: 1px solid #ccc;
+		border-top: none;
+		}
+		.tabcontent {
+  			animation: fadeEffect 1s; /* Fading effect takes 1 second */
+		}
+
+		/* Go from zero to full opacity */
+		@keyframes fadeEffect {
+		from {opacity: 0;}
+		to {opacity: 1;}
+		}
+
+</style>
+<html>
+	<head>
+		<title>NextG-UP: Evolution of 5G</title>
+		<link rel="icon" type="image/png" href="images/nu.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="landing is-preload" onload="findMyState()">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<!-- <h1><a href="index.html">Alpha</a> by HTML5 UP</h1> -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="container" style="display: none">
+
+					<section class="box special">
+						<header class="major">
+							<h2>NextG-UP: Evolution of 5G networks
+							<br />
+							</h2>
+							<h4 id="heading0">This is a crowd sourced project jointly initiated by <a href="https://ece.northeastern.edu/fac-ece/dkoutsonikolas/nuwins/">Northeastern University WiNS Lab</a> and Purdue University <a href="https://engineering.purdue.edu/~dsnl/"> Distributed Systems & Networking Lab</a>.
+								<br />
+								We collect uplink cellular network measurements from users across the globe using our <a href="#">application</a>.
+								<br />
+								We present the cellular network performance of the existing network technologies around the globe and in 
+							</h4>
+							<!-- <p id="para1"></p> -->
+						</header>
+					</section>
+					<section class="box special features">
+						<h3 id="heading_worldwide">Cellular network usage statistics around the globe</h3>
+						<div class="features-row">
+							<embed class = "img_class" src="images/performance_plots/country_placeholder/worlwide_stats.jpg" width="100%" height="100%" />
+						</div>
+					</section>
+					<section class="box special features">
+						<h3 id="heading_overall"></h3>
+						<div id="Throughput_overall" class="tabcontent_overall">
+							<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_throughput.jpg" width="100%" height="100%"/>
+						</div>
+						<div id="Latency_overall" class="tabcontent_overall">
+							<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_latency.jpg" width="100%" height="100%" />
+						</div>
+						<!-- <div class="features-row"> -->
+							<!-- <section>
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_throughput.jpg" width="100%" height="250%" />
+							</section>
+							<section>
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_latency.jpg" width="100%" height="250%" />
+							</section> -->
+						</div>
+					</section>
+					<section class="box special features">
+						<!-- <h3>Network performance of top 10 cities in the United States (5G mmWave)</h3> -->
+						<h3 id="heading_mmWave_top10"></h3>
+						   <div class="features-row">  
+							<div id="Throughput_mmWave_top10" class="tabcontent_mmWave_top10">
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_throughput.jpg" width="100%" height="100%"/>
+							</div>
+							<div id="Latency_mmWave_top10" class="tabcontent_mmWave_top10">
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_latency.jpg" width="100%" height="100%" />
+							</div>
+							<!-- <h3>5G mmWave</h3>	 -->
+							<!-- <section> -->
+								<!-- <embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_throughput.jpg" width="100%" height="250%" /> -->
+								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
+							<!-- </section>
+							<section>
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_latency.jpg" width="100%" height="250%" />
+							</section> -->
+                                                  </div>
+					</section>
+					<section class="box special features">
+						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
+						<h3 id="heading_mmWave_mobility"></h3>
+						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
+							<!-- <section>
+								<embed src="images/performance_plots/country_placeholder/mobility.jpg" width="230%" height="250%" />
+							</section> -->
+							<embed class = "img_class" src="images/performance_plots/country_placeholder/mobility.jpg" width="100%" height="100%" />
+
+						</div>
+					</section>
+					<section class="box special features">
+						<!-- <h3>Network performance of top 10 cities in the United States (5G sub-6 GHz)</h3> -->
+						<h3 id="heading_sub6_top10"></h3>
+							<div id="Throughput_sub6_top10" class="tabcontent_sub6_top10">
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_throughput.jpg" width="100%" height="100%"/>
+							</div>
+							<div id="Latency_sub6_top10" class="tabcontent_sub6_top10">
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_latency.jpg" width="100%" height="100%" />
+							</div>
+							<!-- <h3>5G mmWave</h3>	 -->
+							<!-- <section>
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_throughput.jpg" width="100%" height="250%" />
+							</section>
+							<section>
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_latency.jpg" width="100%" height="250%" />
+							</section> -->
+					</section>
+					<section class="box special features">
+						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
+						<h3 id="heading_sub6_mobility"></h3>
+						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
+							<!-- <section>
+								<embed src="images/performance_plots/country_placeholder/mobility_sub6.jpg" width="230%" height="250%" />
+							</section> -->
+							<embed class = "img_class" src="images/performance_plots/country_placeholder/mobility_sub6.jpg" width="100%" height="100%" />
+
+						</div>
+					</section>
+					<!-- LTE -->
+					<section class="box special features">
+						<!-- <h3>Network performance of top 10 cities in the United States (5G sub-6 GHz)</h3> -->
+						<h3 id="heading_lte_top10"></h3>
+							<div id="Throughput_lte_top10" class="tabcontent_lte_top10">
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_throughput.jpg" width="100%" height="100%"/>
+							</div>
+							<div id="Latency_lte_top10" class="tabcontent_lte_top10">
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_latency.jpg" width="100%" height="100%" />
+							</div>
+							<!-- <h3>5G mmWave</h3>	 -->
+							<!-- <section>
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_throughput.jpg" width="100%" height="250%" />
+							</section>
+							<section>
+								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_latency.jpg" width="100%" height="250%" />
+							</section> -->
+					</section>
+					<section class="box special features">
+						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
+						<h3 id="heading_lte_mobility"></h3>
+						<div class="features-row">
+							<!-- <h3>5G mmWave</h3>	 -->
+							<!-- <section>
+								<embed src="images/performance_plots/country_placeholder/mobility_lte.jpg" width="230%" height="250%" />
+							</section> -->
+							<embed class = "img_class" src="images/performance_plots/country_placeholder/mobility_lte.jpg" width="100%" height="100%" />
+
+						</div>
+					</section>
+					<!-- LTE end -->
+					<!-- <section class="box special features">
+						<h3 id="heading5"></h3>
+						<div class="features-row">
+							
+							<div class="tab">
+								<button class="tablinks" onclick="openPerformancePlot(event, 'Static')" id="defaultOpen">Static</button>
+								<button class="tablinks" onclick="openPerformancePlot(event, 'Walking')">Walking</button>
+								<button class="tablinks" onclick="openPerformancePlot(event, 'Driving')">Driving</button>
+							</div>
+								<div id="Static" class="tabcontent">
+									<embed class = "img_class" src="images/performance_plots/country_placeholder/performance_trend_static.jpg" width="100%" height="100%"/>
+								</div>
+								<div id="Walking" class="tabcontent">
+									<embed class = "img_class" src="images/performance_plots/country_placeholder/performance_trend_walking.jpg" width="100%" height="100%" />
+								</div>
+								<div id="Driving" class="tabcontent">
+									<embed class = "img_class" src="images/performance_plots/country_placeholder/performance_trend_driving.jpg" width="100%" height="100%" />
+								</div>
+						</div>
+					</section> -->
+
+
+					<!-- <div class="row">
+						<div class="col-6 col-12-narrower">
+
+							<section class="box special">
+								<span class="image featured"><img src="images/pic02.jpg" alt="" /></span>
+								<h3>Sed lorem adipiscing</h3>
+								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+								<ul class="actions special">
+									<li><a href="#" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+
+						</div>
+						<div class="col-6 col-12-narrower">
+
+							<section class="box special">
+								<span class="image featured"><img src="images/pic03.jpg" alt="" /></span>
+								<h3>Accumsan integer</h3>
+								<p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+								<ul class="actions special">
+									<li><a href="#" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+
+						</div>
+					</div> -->
+
+				</section>
+
+			<!-- CTA -->
+				<!-- <section id="cta">
+
+					<h2>Sign up for beta access</h2>
+					<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+
+					<form>
+						<div class="row gtr-50 gtr-uniform">
+							<div class="col-8 col-12-mobilep">
+								<input type="email" name="email" id="email" placeholder="Email Address" />
+							</div>
+							<div class="col-4 col-12-mobilep">
+								<input type="submit" value="Sign Up" class="fit" />
+							</div>
+						</div>
+					</form>
+
+				</section> -->
+
+			<!-- Footer -->
+				<footer id="footer">
+					<!-- <ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li>
+					</ul> -->
+					<div class="loader" id="loaderIcon"></div>
+					<h3 id="loaderHeader">Loading ...</h3>
+					<ul class="copyright">
+						<li>&copy; NUWiNS Lab.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</footer>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
