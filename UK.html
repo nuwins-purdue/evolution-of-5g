@@ -2,7 +2,7 @@
 <script>
 	var country="check";
 	function findMyState () {
-			country="United Kingdom";
+			country="UK";
 			var allElements = document.getElementsByClassName("img_class");
 			var allIds = [];
 			for (var i = 0, n = allElements.length; i < n; ++i) {
@@ -11,7 +11,7 @@
 				el.src = el.src.replace("country_placeholder", country);
 				// if (el.id) { allIds.push(el.id); }
 			}
-			console.log("Country is United Kingdom!");
+			console.log("Country is UK!");
 			document.getElementById("main").style.display = "block";
 			document.getElementById("loaderIcon").style.display = "none";
 			document.getElementById("loaderHeader").style.display = "none";
