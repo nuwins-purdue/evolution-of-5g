@@ -31,7 +31,7 @@
 				document.getElementById("main").style.display = "block";
 				document.getElementById("loaderIcon").style.display = "none";
 				document.getElementById("loaderHeader").style.display = "none";
-				document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + data.countryName + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + "</b>";
+				document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + data.countryName + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + ".</b>";
 				document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + data.countryName;
 				document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G mmWave)";
 				document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + data.countryName;
@@ -332,24 +332,12 @@
 						<!-- <h3>Network performance of top 10 cities in the United States (5G mmWave)</h3> -->
 						<h3 id="heading_mmWave_top10"></h3>
 						<div class="features-row">
-							<!-- <h3>5G mmWave</h3>	 -->
-							<!-- <div class="tab">
-								<button class="tablinks_mmWave_top10" onclick="openThroughputLatency(event, 'Throughput_mmWave_top10', 'tabcontent_mmWave_top10', 'tablinks_mmWave_top10')" id="defaultOpenmmWave">Throughput</button>
-								<button class="tablinks_mmWave_top10" onclick="openThroughputLatency(event, 'Latency_mmWave_top10', 'tabcontent_mmWave_top10', 'tablinks_mmWave_top10')">Latency</button>
-							</div> -->
-							<!-- Tab content -->
 							<div id="Throughput_mmWave_top10" class="tabcontent_mmWave_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_throughput.jpg" width="100%" height="100%"/>
 							</div>
 							<div id="Latency_mmWave_top10" class="tabcontent_mmWave_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_latency.jpg" width="100%" height="100%" />
 							</div>
-							<!-- <section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_throughput.jpg" width="100%" height="250%" />
-							</section>
-							<section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_latency.jpg" width="100%" height="250%" />
-							</section> -->
 						</div>
 					</section>
 					<section class="box special features">
@@ -368,23 +356,12 @@
 						<!-- <h3>Network performance of top 10 cities in the United States (5G sub-6 GHz)</h3> -->
 						<h3 id="heading_sub6_top10"></h3>
 						<div class="features-row">
-							<!-- <h3>5G mmWave</h3>	 -->
-							<!-- <div class="tab">
-								<button class="tablinks_sub6_top10" onclick="openThroughputLatency(event, 'Throughput_sub6_top10', 'tabcontent_sub6_top10', 'tablinks_sub6_top10')" id="defaultOpensub6">Throughput</button>
-								<button class="tablinks_sub6_top10" onclick="openThroughputLatency(event, 'Latency_sub6_top10', 'tabcontent_sub6_top10', 'tablinks_sub6_top10')">Latency</button>
-							</div> -->
 							<div id="Throughput_sub6_top10" class="tabcontent_sub6_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_throughput.jpg" width="100%" height="100%"/>
 							</div>
 							<div id="Latency_sub6_top10" class="tabcontent_sub6_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_latency.jpg" width="100%" height="100%" />
 							</div>
-							<!-- <section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_throughput.jpg" width="100%" height="250%" />
-							</section>
-							<section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_latency.jpg" width="100%" height="250%" />
-							</section> -->
 						</div>
 					</section>
 					<section class="box special features">
@@ -404,27 +381,15 @@
 						<!-- <h3>Network performance of top 10 cities in the United States (5G sub-6 GHz)</h3> -->
 						<h3 id="heading_lte_top10"></h3>
 						<div class="features-row">
-							<!-- <h3>5G mmWave</h3>	 -->
-							<!-- <div class="tab">
-								<button class="tablinks_lte_top10" onclick="openThroughputLatency(event, 'Throughput_lte_top10', 'tabcontent_lte_top10', 'tablinks_lte_top10')" id="defaultOpenLte">Throughput</button>
-								<button class="tablinks_lte_top10" onclick="openThroughputLatency(event, 'Latency_lte_top10', 'tabcontent_lte_top10', 'tablinks_lte_top10')">Latency</button>
-							</div> -->
 							<div id="Throughput_lte_top10" class="tabcontent_lte_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_throughput.jpg" width="100%" height="100%"/>
 							</div>
 							<div id="Latency_lte_top10" class="tabcontent_lte_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_latency.jpg" width="100%" height="100%" />
 							</div>
-							<!-- <section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_throughput.jpg" width="100%" height="250%" />
-							</section>
-							<section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_latency.jpg" width="100%" height="250%" />
-							</section> -->
 						</div>
 					</section>
 					<section class="box special features">
-						<!-- Dummy -->
 						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
 						<h3 id="heading_lte_mobility"></h3>
 						<div class="features-row">

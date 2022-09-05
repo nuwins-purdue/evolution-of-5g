@@ -34,7 +34,8 @@ index_content_list = []
 fh = open("index_mod.html", "r")
 data = fh.readlines()
 for d in data:
-    list_elem = d.strip()
+    # list_elem = d.strip()
+    list_elem = d
     index_content_list.append(list_elem)
     if "modification start specific_stat" in d:
         # <li><a href="usa.html">United States of America</a></li>
@@ -52,5 +53,6 @@ fh.close()
 #transfer index mod to index
 fh = open("index.html", "w+")
 for index_content in index_content_list:
-    fh.write(index_content + "\n")
+    # fh.write(index_content + "\n")
+    fh.write(index_content)
 fh.close()

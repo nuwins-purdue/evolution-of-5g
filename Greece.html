@@ -18,7 +18,7 @@
 			document.getElementById("main").style.display = "block";
 			document.getElementById("loaderIcon").style.display = "none";
 			document.getElementById("loaderHeader").style.display = "none";
-			document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + country + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + "</b>";
+			document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + country + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + ".</b>";
 			document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + country;
 			document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + country + " (5G mmWave)";
 			document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + country;
@@ -156,9 +156,9 @@
 							<h2>NextG-UP: Evolution of 5G networks
 							<br />
 							</h2>
-							<h4 id="heading0">This is a crowd sourced project jointly initiated by <a href="https://ece.northeastern.edu/fac-ece/dkoutsonikolas/nuwins/">Northeastern University WiNS Lab</a> and Purdue University <a href="https://engineering.purdue.edu/~dsnl/"> Distributed Systems & Networking Lab</a>.
+							<h4 id="heading0">This is a crowd sourced project jointly initiated by <a href="https://ece.northeastern.edu/fac-ece/dkoutsonikolas/nuwins/">Northeastern University WiNS Lab</a> and Purdue University <a href="https://engineering.purdue.edu/~dsnl/">Distributed Systems & Networking Lab</a>.
 								<br />
-								We collect uplink cellular network measurements from users across the globe using our <a href="#">application</a>.
+								We collect uplink cellular network measurements from users across the globe using our Android application, <a href="https://play.google.com/store/apps/details?id=com.nuwins.cellnetworkinfo&hl=en_US&gl=US">NextG-UP</a>.
 								<br />
 								We present the cellular network performance of the existing network technologies around the globe and in 
 							</h4>
@@ -179,14 +179,14 @@
 						<div id="Latency_overall" class="tabcontent_overall">
 							<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_latency.jpg" width="100%" height="100%" />
 						</div>
-						<!-- <div class="features-row"> -->
-							<!-- <section>
+						<!-- <div class="features-row">
+							<section>
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_throughput.jpg" width="100%" height="250%" />
 							</section>
 							<section>
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_latency.jpg" width="100%" height="250%" />
-							</section> -->
-						</div>
+							</section>
+						</div> -->
 					</section>
 					<section class="box special features">
 						<!-- <h3>Network performance of top 10 cities in the United States (5G mmWave)</h3> -->
@@ -198,15 +198,7 @@
 							<div id="Latency_mmWave_top10" class="tabcontent_mmWave_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_latency.jpg" width="100%" height="100%" />
 							</div>
-							<!-- <h3>5G mmWave</h3>	 -->
-							<!-- <section> -->
-								<!-- <embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_throughput.jpg" width="100%" height="250%" /> -->
-								<!-- <p>Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p> -->
-							<!-- </section>
-							<section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_latency.jpg" width="100%" height="250%" />
-							</section> -->
-                                                  </div>
+                        </div>
 					</section>
 					<section class="box special features">
 						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
@@ -223,19 +215,14 @@
 					<section class="box special features">
 						<!-- <h3>Network performance of top 10 cities in the United States (5G sub-6 GHz)</h3> -->
 						<h3 id="heading_sub6_top10"></h3>
+						<div class="features-row">
 							<div id="Throughput_sub6_top10" class="tabcontent_sub6_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_throughput.jpg" width="100%" height="100%"/>
 							</div>
 							<div id="Latency_sub6_top10" class="tabcontent_sub6_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_latency.jpg" width="100%" height="100%" />
 							</div>
-							<!-- <h3>5G mmWave</h3>	 -->
-							<!-- <section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_throughput.jpg" width="100%" height="250%" />
-							</section>
-							<section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_sub6_latency.jpg" width="100%" height="250%" />
-							</section> -->
+						</div>
 					</section>
 					<section class="box special features">
 						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
@@ -253,19 +240,14 @@
 					<section class="box special features">
 						<!-- <h3>Network performance of top 10 cities in the United States (5G sub-6 GHz)</h3> -->
 						<h3 id="heading_lte_top10"></h3>
+						<div class="features-row">
 							<div id="Throughput_lte_top10" class="tabcontent_lte_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_throughput.jpg" width="100%" height="100%"/>
 							</div>
 							<div id="Latency_lte_top10" class="tabcontent_lte_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_latency.jpg" width="100%" height="100%" />
 							</div>
-							<!-- <h3>5G mmWave</h3>	 -->
-							<!-- <section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_throughput.jpg" width="100%" height="250%" />
-							</section>
-							<section>
-								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_lte_latency.jpg" width="100%" height="250%" />
-							</section> -->
+						</div>
 					</section>
 					<section class="box special features">
 						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
