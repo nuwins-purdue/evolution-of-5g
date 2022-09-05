@@ -24,13 +24,14 @@ var el = allElements[i];
 el.src = el.src.replace("country_placeholder", country);
 // if (el.id) { allIds.push(el.id); }
 }
-var dict = {1:'Jan', 2:'Feb', 3:'Mar', 4:'Apr', 5:'May', 6:'Jun', 7:'Jul', 8:'Aug', 9:'Sep', 10:'Oct', 11:'Nov', 12:'Dec'}
+var dict = {1:'January', 2:'February', 3:'March', 4:'April', 5:'May', 6:'June', 7:'July', 8:'August', 9:'September', 10:'October', 11:'November', 12:'December'}
 const d = new Date();
+var month = d.getMonth() + 1
 console.log("Country Changed!");
 document.getElementById("main").style.display = "block";
 document.getElementById("loaderIcon").style.display = "none";
 document.getElementById("loaderHeader").style.display = "none";
-document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + data.countryName + " across all the available operators from <b>May 30, 2022 to " + dict[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear() + "</b>";
+document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + data.countryName + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + "</b>";
 document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + data.countryName;
 document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G mmWave)";
 document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + data.countryName;
@@ -240,23 +241,23 @@ display: block;
 <a href="#" class="icon solid fa-angle-down">Specific Country Stats</a>
 <ul>
 <!-- modification start specific_stat -->
-<li><a href="Luxembourg.html">Luxembourg</a></li>
-
 <li><a href="Netherlands.html">Netherlands</a></li>
-
-<li><a href="Germany.html">Germany</a></li>
-
-<li><a href="United States.html">United States</a></li>
-
-<li><a href="UK.html">UK</a></li>
-
-<li><a href="Deutschland.html">Deutschland</a></li>
 
 <li><a href="India.html">India</a></li>
 
-<li><a href="Denmark.html">Denmark</a></li>
-
 <li><a href="Greece.html">Greece</a></li>
+
+<li><a href="Deutschland.html">Deutschland</a></li>
+
+<li><a href="Luxembourg.html">Luxembourg</a></li>
+
+<li><a href="United States.html">United States</a></li>
+
+<li><a href="Germany.html">Germany</a></li>
+
+<li><a href="UK.html">UK</a></li>
+
+<li><a href="Denmark.html">Denmark</a></li>
 
 <!-- modification end specific_stat -->
 </ul>
@@ -285,23 +286,23 @@ Sorry! Could not find your location/no data found for your area. But you can see
 <button class="dropbtn">here</button>
 <div class="dropdown-content">
 <!-- modification start dropdown -->
-<a href="Luxembourg.html">Luxembourg</a>
-
 <a href="Netherlands.html">Netherlands</a>
-
-<a href="Germany.html">Germany</a>
-
-<a href="United States.html">United States</a>
-
-<a href="UK.html">UK</a>
-
-<a href="Deutschland.html">Deutschland</a>
 
 <a href="India.html">India</a>
 
-<a href="Denmark.html">Denmark</a>
-
 <a href="Greece.html">Greece</a>
+
+<a href="Deutschland.html">Deutschland</a>
+
+<a href="Luxembourg.html">Luxembourg</a>
+
+<a href="United States.html">United States</a>
+
+<a href="Germany.html">Germany</a>
+
+<a href="UK.html">UK</a>
+
+<a href="Denmark.html">Denmark</a>
 
 <!-- modification end dropdown -->
 </div>

@@ -11,13 +11,14 @@
 				el.src = el.src.replace("country_placeholder", country);
 				// if (el.id) { allIds.push(el.id); }
 			}
-			var dict = {1:'Jan', 2:'Feb', 3:'Mar', 4:'Apr', 5:'May', 6:'Jun', 7:'Jul', 8:'Aug', 9:'Sep', 10:'Oct', 11:'Nov', 12:'Dec'}
+			var dict = {1:'January', 2:'February', 3:'March', 4:'April', 5:'May', 6:'June', 7:'July', 8:'August', 9:'September', 10:'October', 11:'November', 12:'December'}
 			const d = new Date();
+			var month = d.getMonth() + 1
 			console.log("Country is Deutschland!");
 			document.getElementById("main").style.display = "block";
 			document.getElementById("loaderIcon").style.display = "none";
 			document.getElementById("loaderHeader").style.display = "none";
-			document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + country + " across all the available operators from <b>May 30, 2022 to " + dict[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear() + "</b>";
+			document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + country + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + "</b>";
 			document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + country;
 			document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + country + " (5G mmWave)";
 			document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + country;
