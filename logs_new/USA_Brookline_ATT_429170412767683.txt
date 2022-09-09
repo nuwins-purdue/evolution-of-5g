@@ -1,0 +1,239 @@
+Country == United States
+City == Brookline
+GPS Info == 1686 Beacon St #100, Brookline, MA 02445, USA
+Network Operator == AT&T
+User movement == Static
+isEastCoast == true
+isWestCoast == false
+isBoston == true
+All GPS info fetched. Saving city and country info
+Timestamp: 1662408453
+Logging started
+onServiceStateChanged: Channel Number: 700 Cell Bandwidths: [20000, 10000, 10000]
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -111 rsrq: -12 rssi: -77 rssnr: 4
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 1002809128 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 20000 Cell ID: 16940042 Physical Cell ID: 152 Tracking Area Code: 1049 EARFCN: 700
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: 5G (Sub-6 GHz)
+Instantaneous GPS information: United States, 1686 Beacon St #100, Brookline, MA 02445, USA
+Nuttcp Command fired: timeout 15 /data/app/~~36TgSzjufoCkSFXs2HHD9g==/com.nuwins.cellnetworkinfo-YSuxiexe9ixM2ViZwdV3GA==/lib/arm64/libnuttcp.so -v -i0.1 -t -T10 -p5001 54.197.223.49
+Instantaneous GPS information: United States, 1686 Beacon St #100, Brookline, MA 02445, USA
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 1002812120 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 20000 Cell ID: 16940042 Physical Cell ID: 152 Tracking Area Code: 1049 EARFCN: 700
+Instantaneous GPS information: United States, 1686 Beacon St #100, Brookline, MA 02445, USA
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 1002815136 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 20000 Cell ID: 16940042 Physical Cell ID: 152 Tracking Area Code: 1049 EARFCN: 700
+nuttcp-t: v8.1.4: socket
+nuttcp-t: buflen=65536, nstream=1, port=5001 tcp -> 54.197.223.49
+nuttcp-t: time limit = 10.00 seconds
+nuttcp-t: connect to 54.197.223.49 with mss=1358, RTT=44.072 ms af=inet
+nuttcp-t: send window size = 1048576, receive window size = 6291456
+nuttcp-t: available send window = 786432, available receive window = 4718592
+nuttcp-t: initial congestion window = 13 KB (10 packets)
+nuttcp-r: v6.1.2: socket
+nuttcp-r: buflen=65536, nstream=1, port=5001 tcp
+nuttcp-r: interval reporting every 0.10 seconds
+nuttcp-r: accept from 107.116.82.129
+nuttcp-r: send window size = 25000000, receive window size = 25000000
+nuttcp-r: available send window = 12500000, available receive window = 12500000
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2433 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2415 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2427 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2437 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2415 Mbps     0 retrans    197 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    197 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2428 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2446 Mbps     0 retrans    137 KB-cwnd
+Instantaneous GPS information: United States, 1686 Beacon St #100, Brookline, MA 02445, USA
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 1002818147 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 20000 Cell ID: 16940042 Physical Cell ID: 152 Tracking Area Code: 1049 EARFCN: 700
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4846 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2443 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2445 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2428 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2412 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    160 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    161 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    161 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    163 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    163 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2441 Mbps     0 retrans    163 KB-cwnd
+Instantaneous GPS information: United States, 1686 Beacon St #100, Brookline, MA 02445, USA
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    163 KB-cwnd
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 1002821153 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 20000 Cell ID: 16940042 Physical Cell ID: 152 Tracking Area Code: 1049 EARFCN: 700
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    164 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    164 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    164 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    164 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2427 Mbps     0 retrans    164 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    164 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    164 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    164 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    164 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    164 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    165 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    155 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    141 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    139 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    133 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    129 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    125 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    123 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    118 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    115 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    115 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    115 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    115 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2444 Mbps     0 retrans    115 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    115 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4833 Mbps     0 retrans    115 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    115 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    116 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    118 KB-cwnd
+Instantaneous GPS information: United States, 1686 Beacon St #100, Brookline, MA 02445, USA
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    118 KB-cwnd
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 1002824157 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 20000 Cell ID: 16940042 Physical Cell ID: 152 Tracking Area Code: 1049 EARFCN: 700
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    119 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2388 Mbps     0 retrans    120 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    122 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    123 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    123 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    124 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2431 Mbps     0 retrans    125 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    127 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    127 KB-cwnd
+Average throughput is 1
+Best tput --> 5G sub6 --> 1
+Send buff details: 
+Brookline
+United_States
+5G (Sub-6 GHz)
+AT&T
+1
+Recv buff details: 
+866
+831
+24
+96% lower
+99% lower
+94% lower
+AT&T
+25
+47
+T-Mobile
+51
+43
+N/A
+N/A
+N/A
+Nuttcp Logging stopped
+Ping command fired: /system/bin/ping -i 0.2 -s 38 -c 11 54.197.223.49
+PING 54.197.223.49 (54.197.223.49) 38(66) bytes of data.
+46 bytes from 54.197.223.49: icmp_seq=1 ttl=45 time=45.7 ms
+46 bytes from 54.197.223.49: icmp_seq=2 ttl=45 time=42.5 ms
+46 bytes from 54.197.223.49: icmp_seq=3 ttl=45 time=41.0 ms
+46 bytes from 54.197.223.49: icmp_seq=4 ttl=45 time=39.3 ms
+46 bytes from 54.197.223.49: icmp_seq=5 ttl=45 time=39.4 ms
+46 bytes from 54.197.223.49: icmp_seq=6 ttl=45 time=38.7 ms
+46 bytes from 54.197.223.49: icmp_seq=7 ttl=45 time=46.2 ms
+46 bytes from 54.197.223.49: icmp_seq=8 ttl=45 time=44.3 ms
+46 bytes from 54.197.223.49: icmp_seq=9 ttl=45 time=51.0 ms
+Instantaneous GPS information: United States, 1686 Beacon St #100, Brookline, MA 02445, USA
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 1002827124 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 20000 Cell ID: 16940042 Physical Cell ID: 152 Tracking Area Code: 1049 EARFCN: 700
+46 bytes from 54.197.223.49: icmp_seq=10 ttl=45 time=42.9 ms
+46 bytes from 54.197.223.49: icmp_seq=11 ttl=45 time=41.2 ms
+
+--- 54.197.223.49 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 2012ms
+rtt min/avg/max/mdev = 38.765/42.982/51.074/3.528 ms
+Ping logging stopped
+All Process Stopped

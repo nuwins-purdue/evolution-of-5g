@@ -1,0 +1,246 @@
+Country == United States
+City == Albuquerque
+GPS Info == 6600 Menaul Blvd NE, Albuquerque, NM 87110, USA
+Network Operator == Mint
+User movement == Static
+isEastCoast == false
+isWestCoast == true
+isBoston == false
+All GPS info fetched. Saving city and country info
+Timestamp: 1662581031
+Logging started
+onServiceStateChanged: Channel Number: 66786 Cell Bandwidths: [20000, 5000, 15000]
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -66 rsrq: -9 rssi: -51 rssnr: 18
+onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -67 ssrsrq: -11 sssinr: 22
+onCellInfoChanged: Operator: T-Mobile UpdateTimestamp: 132949283 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 21483268 Physical Cell ID: 27 Tracking Area Code: 10527 EARFCN: 66786
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: Unknown
+Instantaneous GPS information: United States, 498 Terrace St NE, Albuquerque, NM 87106, USA
+Nuttcp Command fired: timeout 15 /data/app/~~LzPB6qYxm3Klyjajp3A9dw==/com.nuwins.cellnetworkinfo-gq0xKa9iw7V7VBzYmogFlA==/lib/arm64/libnuttcp.so -v -i0.1 -t -T10 -p5001 44.241.174.93
+nuttcp-t: v8.1.4: socket
+nuttcp-t: buflen=65536, nstream=1, port=5001 tcp -> 44.241.174.93
+nuttcp-t: time limit = 10.00 seconds
+nuttcp-t: connect to 44.241.174.93 with mss=1388, RTT=89.264 ms af=inet
+nuttcp-t: send window size = 2097152, receive window size = 6291456
+nuttcp-t: available send window = 1572864, available receive window = 4718592
+nuttcp-t: initial congestion window = 13 KB (10 packets)
+nuttcp-r: v6.1.2: socket
+nuttcp-r: buflen=65536, nstream=1, port=5001 tcp
+nuttcp-r: interval reporting every 0.10 seconds
+nuttcp-r: accept from 172.58.99.67
+nuttcp-r: send window size = 25000000, receive window size = 25000000
+nuttcp-r: available send window = 12500000, available receive window = 12500000
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    399 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    399 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2427 Mbps     0 retrans    399 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4854 Mbps     0 retrans    399 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7291 Mbps     0 retrans    399 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4573 Mbps     0 retrans   1127 KB-cwnd
+    0.7500 MB /   0.10 sec =   62.9064 Mbps     0 retrans   3876 KB-cwnd
+    1.0625 MB /   0.10 sec =   89.1718 Mbps     0 retrans   3876 KB-cwnd
+    1.3750 MB /   0.10 sec =  115.3445 Mbps     0 retrans   5072 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.2985 Mbps     0 retrans   5072 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0877 Mbps     0 retrans   5072 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5422 Mbps     0 retrans   5072 KB-cwnd
+Instantaneous GPS information: United States, 498 Terrace St NE, Albuquerque, NM 87106, USA
+onCellInfoChanged: Operator: T-Mobile UpdateTimestamp: 132952243 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 21483268 Physical Cell ID: 27 Tracking Area Code: 10527 EARFCN: 66786
+    0.9375 MB /   0.10 sec =   78.6401 Mbps     0 retrans    975 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    975 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    975 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    975 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    975 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    975 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    975 KB-cwnd
+    2.0000 MB /   0.10 sec =  167.6046 Mbps     0 retrans    975 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    975 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    975 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans   2325 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans   2325 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans   2325 KB-cwnd
+    0.9375 MB /   0.10 sec =   78.6589 Mbps     0 retrans   2325 KB-cwnd
+    1.0000 MB /   0.10 sec =   83.8257 Mbps     0 retrans   4566 KB-cwnd
+    3.6875 MB /   0.10 sec =  309.5404 Mbps     0 retrans   4566 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0772 Mbps     0 retrans   4566 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4529 Mbps     0 retrans   4566 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans   3678 KB-cwnd
+    3.2500 MB /   0.10 sec =  272.6434 Mbps     0 retrans   3678 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans   3732 KB-cwnd
+    3.7500 MB /   0.10 sec =  314.6168 Mbps     0 retrans   3732 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3135 Mbps     0 retrans   3732 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0707 Mbps     0 retrans   3732 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0746 Mbps     0 retrans   3732 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5563 Mbps     0 retrans   3732 KB-cwnd
+    1.5625 MB /   0.10 sec =  130.9803 Mbps     0 retrans   3732 KB-cwnd
+    1.5000 MB /   0.10 sec =  125.9173 Mbps     0 retrans   3732 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0733 Mbps     0 retrans   3732 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0537 Mbps     0 retrans   3732 KB-cwnd
+    1.5000 MB /   0.10 sec =  125.8480 Mbps     0 retrans   3732 KB-cwnd
+Instantaneous GPS information: United States, 498 Terrace St NE, Albuquerque, NM 87106, USA
+onCellInfoChanged: Operator: T-Mobile UpdateTimestamp: 132955233 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 21483268 Physical Cell ID: 27 Tracking Area Code: 10527 EARFCN: 66786
+    1.3750 MB /   0.10 sec =  115.3411 Mbps     0 retrans   3732 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3149 Mbps     0 retrans   3732 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3149 Mbps     0 retrans   3732 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5323 Mbps     0 retrans   3732 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.2413 Mbps     0 retrans   3732 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.4131 Mbps     0 retrans   3732 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3162 Mbps     0 retrans   3732 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3162 Mbps     0 retrans   3732 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3190 Mbps     0 retrans   2986 KB-cwnd
+    1.0000 MB /   0.10 sec =   83.8752 Mbps     0 retrans   2986 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans   3057 KB-cwnd
+    1.8750 MB /   0.10 sec =  157.2864 Mbps     0 retrans   3057 KB-cwnd
+    3.6250 MB /   0.10 sec =  304.1357 Mbps     0 retrans   3057 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0707 Mbps     0 retrans   3057 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5606 Mbps     0 retrans   3057 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3149 Mbps     0 retrans   3057 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5436 Mbps     0 retrans   3057 KB-cwnd
+    1.5000 MB /   0.10 sec =  125.7285 Mbps     0 retrans   3057 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.1888 Mbps     0 retrans   3057 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.2944 Mbps     0 retrans   3057 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3094 Mbps     0 retrans   3057 KB-cwnd
+    1.5000 MB /   0.10 sec =  125.8543 Mbps     0 retrans   3057 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3026 Mbps     0 retrans   3057 KB-cwnd
+Instantaneous GPS information: United States, 498 Terrace St NE, Albuquerque, NM 87106, USA
+onCellInfoChanged: Operator: T-Mobile UpdateTimestamp: 132958244 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 21483268 Physical Cell ID: 27 Tracking Area Code: 10527 EARFCN: 66786
+    1.6250 MB /   0.10 sec =  136.3285 Mbps     0 retrans      2 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3135 Mbps     0 retrans      2 KB-cwnd
+    0.5000 MB /   0.10 sec =   41.9254 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+Instantaneous GPS information: United States, 498 Terrace St NE, Albuquerque, NM 87106, USA
+onCellInfoChanged: Operator: T-Mobile UpdateTimestamp: 132961207 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 21483268 Physical Cell ID: 27 Tracking Area Code: 10527 EARFCN: 66786
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      5 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      8 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2426 Mbps     0 retrans      5 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -66 rsrq: -8 rssi: -51 rssnr: 19
+onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -69 ssrsrq: -11 sssinr: 21
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+Instantaneous GPS information: United States, 498 Terrace St NE, Albuquerque, NM 87106, USA
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+onCellInfoChanged: Operator: T-Mobile UpdateTimestamp: 132964235 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 21483268 Physical Cell ID: 27 Tracking Area Code: 10527 EARFCN: 66786
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -66 rsrq: -8 rssi: -51 rssnr: 18
+onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -68 ssrsrq: -11 sssinr: 21
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      1 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      2 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans      4 KB-cwnd
+Average throughput is 33
+Best tput --> 5G mmWave --> 34
+Send buff details: 
+Albuquerque
+United_States
+5G(mmWave)
+Mint
+34
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -66 rsrq: -8 rssi: -51 rssnr: 18
+onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -69 ssrsrq: -11 sssinr: 21
+Recv buff details: 
+277
+265
+1
+43% higher
+62% lower
+104% higher
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Nuttcp Logging stopped
+Ping command fired: /system/bin/ping -i 0.2 -s 38 -c 11 44.241.174.93
+PING 44.241.174.93 (44.241.174.93) 38(66) bytes of data.
+46 bytes from 44.241.174.93: icmp_seq=1 ttl=27 time=99.5 ms
+46 bytes from 44.241.174.93: icmp_seq=2 ttl=27 time=94.6 ms
+46 bytes from 44.241.174.93: icmp_seq=3 ttl=27 time=93.9 ms
+46 bytes from 44.241.174.93: icmp_seq=4 ttl=27 time=92.9 ms
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -66 rsrq: -8 rssi: -51 rssnr: 18
+onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -68 ssrsrq: -11 sssinr: 22
+46 bytes from 44.241.174.93: icmp_seq=5 ttl=27 time=92.3 ms
+46 bytes from 44.241.174.93: icmp_seq=6 ttl=27 time=94.9 ms
+46 bytes from 44.241.174.93: icmp_seq=7 ttl=27 time=96.6 ms
+46 bytes from 44.241.174.93: icmp_seq=8 ttl=27 time=96.0 ms
+46 bytes from 44.241.174.93: icmp_seq=9 ttl=27 time=94.6 ms
+Instantaneous GPS information: United States, 498 Terrace St NE, Albuquerque, NM 87106, USA
+onCellInfoChanged: Operator: T-Mobile UpdateTimestamp: 132967238 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 21483268 Physical Cell ID: 27 Tracking Area Code: 10527 EARFCN: 66786
+46 bytes from 44.241.174.93: icmp_seq=10 ttl=27 time=94.5 ms
+46 bytes from 44.241.174.93: icmp_seq=11 ttl=27 time=97.0 ms
+
+--- 44.241.174.93 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 92.311/95.207/99.527/1.937 ms
+Ping logging stopped
+All Process Stopped

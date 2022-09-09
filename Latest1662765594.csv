@@ -1,0 +1,60 @@
+,FileName,Country,Date,State,City,Operator,Tech,Throughput,Latency,Type
+0,logs_new/Norway_Gaustadall%C3%A9en 23B_Telia N_5060255952859.txt,Norway,1662654645,0851,kommune,Telia,5G,35.7684,42.98,Walking
+0,logs_new/Norway_0484 Oslo_Telia N_6152714611818.txt,Norway,1662661813,0484,kommune,Telia,5G,148.5280,44.040000000000006,Walking
+0,logs_new/Norway_0372 Oslo_Telia N_8988103630319.txt,Norway,1662744620,0372,kommune,Telia,5G,146.8176,39.199999999999996,Walking
+0,logs_new/Norway_0572 Oslo_Telia N_1848357577782.txt,Norway,1662583357,0572,kommune,Telia,5G,50.5787,39.63,Walking
+0,logs_new/Norway_0571 Oslo_Telia N_4349303976985.txt,Norway,1662639564,0851,kommune,Telia,5G,0,49.459999999999994,Static
+0,logs_new/Norway_0572 Oslo_Telia N_1394017317643.txt,Norway,1662582352,,kommune,Telia,5G,29.2090,39.129999999999995,Static
+0,logs_new/Norway_Oslo_Telia N_5188365944113.txt,Norway,1662654774,"Forskningsparken,",Oslo,Telia,5G,77.0858,35.760000000000005,Static
+0,logs_new/Norway_Oslo_Telia N_5165454612923.txt,Norway,1662654751,"Forskningsparken,",Oslo,Telia,5G,69.9813,48.739999999999995,Walking
+0,logs_new/Norway_Gaustadall%C3%A9en 23B_Telia N_5023826552404.txt,Norway,1662654609,0373,kommune,Telia,5G,98.0564,41.60000000000001,Walking
+0,logs_new/Norway_0572 Oslo_Telia N_3419772309579.txt,Norway,1662624553,0572,kommune,Telia,5G,132.2740,35.73,Walking
+0,logs_new/Norway_0572 Oslo_Telia N_1465089689022.txt,Norway,1662582709,,kommune,Telia,5G,38.7442,45.529999999999994,Static
+0,logs_new/USA_Albuquerque_Mint_54726001100580.txt,United States,1662580797,NM,Albuquerque,Mint,Unknown,111.2444,98.68,Static
+0,logs_new/Norway_0372 Oslo_Telia N_9005111792552.txt,Norway,1662744637,0372,kommune,Telia,5G,145.3826,37.24,Walking
+0,logs_new/Norway_Nydalsveien 37_Telia N_5464033686976.txt,Norway,1662655342,0484,kommune,Telia,5G,62.6545,52.69,Walking
+0,logs_new/Norway_0565 Oslo_Telia N_3686616059529.txt,Norway,1662624834,0571,kommune,Telia,5G,0,40.089999999999996,Walking
+0,logs_new/Norway_0571 Oslo_Telia N_4985211652107.txt,Norway,1662654570,0373,kommune,Telia,5G,18.9932,38.809999999999995,Walking
+0,logs_new/USA_Boston_T-Mobile_95415103171750.txt,United States,1662158830,MA,Boston,T-Mobile,Unknown,83.7575,42.19,Walking
+0,logs_new/Norway_Nydalsveien 37_Telia N_5412692745485.txt,Norway,1662655291,0484,kommune,Telia,5G,148.0102,38.199999999999996,Walking
+0,logs_new/Norway_Oslo_Telia N_5235778683365.txt,Norway,1662654821,"Forskningsparken,",Oslo,Telia,5G,68.4304,38.730000000000004,Walking
+0,logs_new/Norway_0572 Oslo_Telia N_1084480440313.txt,Norway,1662580897,,kommune,Telia,5G,32.4121,43.96,Static
+0,logs_new/Norway_0484 Oslo_Telia N_6178301551860.txt,Norway,1662661839,0484,kommune,Telia,5G,132.0697,48.019999999999996,Walking
+0,logs_new/Norway_Oslo_Telia N_5145775519650.txt,Norway,1662654731,"Forskningsparken,",Oslo,Telia,5G,48.4359,49.160000000000004,Static
+0,logs_new/Norway_0572 Oslo_Telia N_3374676107825.txt,Norway,1662624508,0572,kommune,Telia,5G,0,44.279999999999994,Walking
+0,logs_new/Norway_0572 Oslo_Telia N_1598053779753.txt,Norway,1662582983,0572,kommune,Telia,5G,39.3141,40.26,Walking
+0,logs_new/USA_College Station_ATT_27764677945024.txt,United States,1662317900,TX,Station,AT&T,LTE-CA,10.5471,60.95,Walking
+0,logs_new/Norway_0571 Oslo_Telia N_4965903767322.txt,Norway,1662654551,0851,kommune,Telia,5G,29.9180,50.03,Static
+0,logs_new/Norway_0571 Oslo_Telia N_4626300359431.txt,Norway,1662645673,0851,kommune,Telia,5G,6.1919,45.34,Static
+0,logs_new/Norway_0572 Oslo_Telia N_3469073203623.txt,Norway,1662624602,0572,kommune,Telia,5G,148.3160,37.03,Walking
+0,logs_new/Norway_0572 Oslo_Telia N_1687536153104.txt,Norway,1662583072,,kommune,Telia,5G,37.8068,35.49,Walking
+0,logs_new/USA_Boston_T-Mobile_53949947314874.txt,United States,1662162080,MA,Boston,T-Mobile,5G,0,56.69999999999999,Static
+0,logs_new/Norway_0372 Oslo_Telia N_9024185750306.txt,Norway,1662744656,0372,kommune,Telia,5G,147.0178,35.379999999999995,Walking
+0,logs_new/Norway_Nydalsveien 37_Telia N_6044329910088.txt,Norway,1662661705,,kommune,Telia,5G,6.7624,56.470000000000006,Walking
+0,logs_new/USA_College Station_ATT_27713208942484.txt,United States,1662317849,TX,Station,AT&T,LTE-CA,8.2928,60.75999999999999,Static
+0,logs_new/USA_Albuquerque_Mint_54768714194001.txt,United States,1662580840,NM,Albuquerque,Mint,Unknown,108.5867,97.98999999999998,Static
+0,logs_new/USA_Brookline_ATT_534072074361879.txt,United States,1662578880,MA,Brookline,AT&T,5G,8.5106,44.239999999999995,Static
+0,logs_new/Norway_0851 Oslo_Telia N_8881022720256.txt,Norway,1662744264,0851,kommune,Telia,5G,4.4767,44.82,Static
+0,logs_new/India_Shibpur Rd_JIO 4G_72550091302991.txt,India,1662221537,Bengal,Howrah,JIO,None,0,267.0,Static
+0,logs_new/USA_West Lafayette_LycaMobile_208920297469260.txt,United States,1662730520,IN,Lafayette,LycaMobile,LTE-CA,3.5036,101.09,Walking
+0,logs_new/USA_Boston_T-Mobile_182136978975568.txt,United States,1662408225,MA,Boston,T-Mobile,5G(mmWave),3.9356,42.11,Static
+0,logs_new/Norway_0572 Oslo_Telia N_2013371614542.txt,Norway,1662584126,,kommune,Telia,5G,35.3242,40.809999999999995,Walking
+0,logs_new/USA_Boston_T-Mobile_184541631359840.txt,United States,1662411928,MA,Boston,T-Mobile,Unknown,12.1616,43.03,Static
+0,logs_new/USA_Albuquerque_Mint_54960051835855.txt,United States,1662581031,NM,Albuquerque,Mint,Unknown,0,94.72999999999999,Static
+0,logs_new/USA_Boston_T-Mobile_95355194111337.txt,United States,1662158770,MA,Boston,T-Mobile,Unknown,27.9392,48.150000000000006,Walking
+0,logs_new/USA_College Station_ATT_27805621535611.txt,United States,1662317941,TX,Station,AT&T,LTE-CA,0,59.71999999999999,Walking
+0,logs_new/Norway_0851 Oslo_Telia N_8501374981651.txt,Norway,1662733036,,kommune,Telia,5G,13.6157,52.910000000000004,Static
+0,logs_new/Norway_Oslo_Telia N_6063563261227.txt,Norway,1662661724,"T,",Oslo,Telia,5G,37.4418,52.730000000000004,Walking
+0,logs_new/Norway_Nydalsveien 37_Telia N_5435786395476.txt,Norway,1662655314,0484,kommune,Telia,5G,112.4933,45.730000000000004,Walking
+0,logs_new/USA_Brookline_ATT_428939001173068.txt,United States,1662407926,MA,Brookline,AT&T,5G,0,44.519999999999996,Static
+0,logs_new/Norway_0572 Oslo_Telia N_1787309237858.txt,Norway,1662583172,,kommune,Telia,5G,46.3780,38.13,Walking
+0,logs_new/USA_Albuquerque_Mint_66510214535772.txt,United States,1662599820,NM,Albuquerque,Mint,5G,0,151.2,Static
+0,logs_new/Norway_0572 Oslo_Telia N_3441825127487.txt,Norway,1662624575,0572,kommune,Telia,5G,129.2173,40.519999999999996,Walking
+0,logs_new/USA_Boston_T-Mobile_184318456932403.txt,United States,1662411705,MA,Boston,T-Mobile,Unknown,15.0264,50.22,Static
+0,logs_new/USA_Albuquerque_Mint_54989081945844.txt,United States,1662581060,NM,Albuquerque,Mint,Unknown,0,94.72999999999999,Static
+0,logs_new/Norway_0572 Oslo_Telia N_2188007249788.txt,Norway,1662584301,0572,kommune,Telia,5G,33.3783,35.82,Walking
+0,logs_new/Norway_Oslo_Telia N_5085467557016.txt,Norway,1662654671,"Forskningsparken,",Oslo,Telia,5G,0,42.13,Walking
+0,logs_new/USA_Brookline_ATT_429787911138365.txt,United States,1662424490,MA,Brookline,AT&T,5G,21.8862,54.68181818181818,Static
+0,logs_new/USA_Brookline_ATT_430017838293926.txt,United States,1662424913,MA,Brookline,AT&T,5G,15.8104,48.67,Static
+0,logs_new/Norway_0851 Oslo_Telia N_8966331622880.txt,Norway,1662744598,0372,kommune,Telia,None,149.2186,40.66,Walking
+0,logs_new/Norway_0571 Oslo_Telia N_4199890118865.txt,Norway,1662638469,0851,kommune,Telia,5G,0,50.29,Static

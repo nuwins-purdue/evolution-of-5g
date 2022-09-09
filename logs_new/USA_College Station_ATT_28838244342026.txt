@@ -1,0 +1,250 @@
+Country == United States
+City == College Station
+GPS Info == 4323 Texas 6 Frontage Rd, College Station, TX 77845, USA
+Network Operator == AT&T
+User movement == Driving
+isEastCoast == true
+isWestCoast == false
+isBoston == false
+All GPS info fetched. Saving city and country info
+Timestamp: 1662320577
+Logging started
+Instantaneous GPS information: United States, 4323 Texas 6 Frontage Rd, College Station, TX 77845, USA
+onServiceStateChanged: Channel Number: 67086 Cell Bandwidths: [10000, 20000, 10000, 10000]
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -86 rsrq: -11 rssi: -87 rssnr: 14
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 149724502 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 136833196 Physical Cell ID: 348 Tracking Area Code: 28952 EARFCN: 67086
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -89 rsrq: -11 rssi: -89 rssnr: 12
+Nuttcp Command fired: timeout 15 /data/app/~~xfH-0GP_-F5l0cAFwMGJyA==/com.nuwins.cellnetworkinfo--EJVBw5jsHu27fexONIs1A==/lib/arm64/libnuttcp.so -v -i0.1 -t -T10 -p5001 54.197.223.49
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -84 rsrq: -11 rssi: -85 rssnr: 12
+nuttcp-t: v8.1.4: socket
+nuttcp-t: buflen=65536, nstream=1, port=5001 tcp -> 54.197.223.49
+nuttcp-t: time limit = 10.00 seconds
+nuttcp-t: connect to 54.197.223.49 with mss=1378, RTT=56.908 ms af=inet
+nuttcp-t: send window size = 3145728, receive window size = 6291456
+nuttcp-t: available send window = 2359296, available receive window = 4718592
+nuttcp-t: initial congestion window = 13 KB (10 packets)
+nuttcp-r: v6.1.2: socket
+nuttcp-r: buflen=65536, nstream=1, port=5001 tcp
+nuttcp-r: interval reporting every 0.10 seconds
+nuttcp-r: accept from 166.172.120.196
+nuttcp-r: send window size = 25000000, receive window size = 25000000
+nuttcp-r: available send window = 12500000, available receive window = 12500000
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    614 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    614 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4857 Mbps     0 retrans    614 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7294 Mbps     0 retrans    614 KB-cwnd
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 149726828 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 136833196 Physical Cell ID: 348 Tracking Area Code: 28952 EARFCN: 67086
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -86 rsrq: -11 rssi: -87 rssnr: 11
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -84 rsrq: -10 rssi: -85 rssnr: 12
+    0.1250 MB /   0.10 sec =   10.4851 Mbps     0 retrans    265 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2418 Mbps     0 retrans    265 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2375 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.7500 MB /   0.10 sec =   62.9731 Mbps     0 retrans    265 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7159 Mbps     0 retrans    265 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2466 Mbps     0 retrans    265 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    265 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2386 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    265 KB-cwnd
+Instantaneous GPS information: United States, 4323 Texas 6 Frontage Rd, College Station, TX 77845, USA
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 149728852 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 136833196 Physical Cell ID: 348 Tracking Area Code: 28952 EARFCN: 67086
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -87 rsrq: -12 rssi: -87 rssnr: 10
+Instantaneous GPS information: United States, 4323 Texas 6 Frontage Rd, College Station, TX 77845, USA
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    135 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    135 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2446 Mbps     0 retrans    135 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7054 Mbps     0 retrans    135 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2499 Mbps     0 retrans    135 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2407 Mbps     0 retrans    135 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2437 Mbps     0 retrans    135 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    135 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    135 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4772 Mbps     0 retrans    135 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7381 Mbps     0 retrans    135 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4864 Mbps     0 retrans    135 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2436 Mbps     0 retrans    135 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7283 Mbps     0 retrans    135 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2428 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4865 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2433 Mbps     0 retrans    172 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7260 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2436 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2424 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2462 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7291 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2439 Mbps     0 retrans    172 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    172 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4852 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    172 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    172 KB-cwnd
+Instantaneous GPS information: United States, 4323 Texas 6 Frontage Rd, College Station, TX 77845, USA
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 149732964 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 136833196 Physical Cell ID: 348 Tracking Area Code: 28952 EARFCN: 67086
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -90 rsrq: -11 rssi: -91 rssnr: 13
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2413 Mbps     0 retrans    149 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    149 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    149 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    149 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    149 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7283 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2326 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2535 Mbps     0 retrans    149 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4860 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    149 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4861 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2424 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2416 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2446 Mbps     0 retrans    149 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4850 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2416 Mbps     0 retrans    149 KB-cwnd
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -86 rsrq: -11 rssi: -87 rssnr: 14
+    0.0625 MB /   0.10 sec =    5.2436 Mbps     0 retrans    154 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4870 Mbps     0 retrans    154 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2426 Mbps     0 retrans    154 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4863 Mbps     0 retrans    154 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2420 Mbps     0 retrans    154 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2436 Mbps     0 retrans    154 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4831 Mbps     0 retrans    154 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2395 Mbps     0 retrans    154 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4926 Mbps     0 retrans    154 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2415 Mbps     0 retrans    154 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4816 Mbps     0 retrans    154 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2477 Mbps     0 retrans    154 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2378 Mbps     0 retrans    154 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    154 KB-cwnd
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 149735963 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 136833196 Physical Cell ID: 348 Tracking Area Code: 28952 EARFCN: 67086
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -89 rsrq: -12 rssi: -89 rssnr: 14
+    0.1250 MB /   0.10 sec =   10.4779 Mbps     0 retrans    156 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2469 Mbps     0 retrans    156 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2414 Mbps     0 retrans    156 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    156 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2424 Mbps     0 retrans    156 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2431 Mbps     0 retrans    156 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans     99 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans     99 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    129 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2424 Mbps     0 retrans    129 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2439 Mbps     0 retrans    129 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    141 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2422 Mbps     0 retrans    141 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    146 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    146 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    146 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    146 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    148 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4850 Mbps     0 retrans    148 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    148 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    148 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    148 KB-cwnd
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -86 rsrq: -11 rssi: -87 rssnr: 13
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    149 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans     92 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans     92 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans     92 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    107 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7297 Mbps     0 retrans    123 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2437 Mbps     0 retrans    123 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    123 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2428 Mbps     0 retrans    125 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4860 Mbps     0 retrans    125 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2411 Mbps     0 retrans    125 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2447 Mbps     0 retrans    126 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2406 Mbps     0 retrans    126 KB-cwnd
+Instantaneous GPS information: United States, 4323 Texas 6 Frontage Rd, College Station, TX 77845, USA
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 149738854 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 136833196 Physical Cell ID: 348 Tracking Area Code: 28952 EARFCN: 67086
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -81 rsrq: -10 rssi: -81 rssnr: 13
+Instantaneous GPS information: United States, 4323 Texas 6 Frontage Rd, College Station, TX 77845, USA
+    0.1250 MB /   0.10 sec =   10.4884 Mbps     0 retrans    126 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2433 Mbps     0 retrans    127 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    127 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2417 Mbps     0 retrans    129 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2409 Mbps     0 retrans    129 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4909 Mbps     0 retrans    129 KB-cwnd
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -86 rsrq: -11 rssi: -87 rssnr: 12
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    130 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2392 Mbps     0 retrans    130 KB-cwnd
+Average throughput is 5
+Best tput --> LTE --> 5
+Send buff details: 
+College_Station
+United_States
+LTE-CA
+AT&T
+5
+Recv buff details: 
+562
+1
+1
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Nuttcp Logging stopped
+Ping command fired: /system/bin/ping -i 0.2 -s 38 -c 11 54.197.223.49
+PING 54.197.223.49 (54.197.223.49) 38(66) bytes of data.
+46 bytes from 54.197.223.49: icmp_seq=1 ttl=40 time=57.9 ms
+46 bytes from 54.197.223.49: icmp_seq=2 ttl=40 time=58.7 ms
+46 bytes from 54.197.223.49: icmp_seq=3 ttl=40 time=65.0 ms
+46 bytes from 54.197.223.49: icmp_seq=4 ttl=40 time=58.6 ms
+46 bytes from 54.197.223.49: icmp_seq=5 ttl=40 time=53.8 ms
+46 bytes from 54.197.223.49: icmp_seq=6 ttl=40 time=52.4 ms
+46 bytes from 54.197.223.49: icmp_seq=7 ttl=40 time=52.6 ms
+Instantaneous GPS information: United States, 4323 Texas 6 Frontage Rd, College Station, TX 77845, USA
+onCellInfoChanged: Operator: AT&T UpdateTimestamp: 149741977 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [66] Bandwidth: 2147483647 Cell ID: 136833196 Physical Cell ID: 348 Tracking Area Code: 28952 EARFCN: 67086
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -89 rsrq: -13 rssi: -89 rssnr: 12
+46 bytes from 54.197.223.49: icmp_seq=8 ttl=40 time=55.5 ms
+46 bytes from 54.197.223.49: icmp_seq=9 ttl=40 time=58.0 ms
+46 bytes from 54.197.223.49: icmp_seq=10 ttl=40 time=57.0 ms
+46 bytes from 54.197.223.49: icmp_seq=11 ttl=40 time=56.8 ms
+
+--- 54.197.223.49 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 2012ms
+rtt min/avg/max/mdev = 52.408/56.976/65.025/3.368 ms
+Ping logging stopped
+All Process Stopped

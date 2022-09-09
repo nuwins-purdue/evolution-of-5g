@@ -1,0 +1,207 @@
+Country == United States
+City == Boston
+GPS Info == 25 Bowdoin St, Boston, MA 02114, USA
+Network Operator == T-Mobile
+User movement == Walking
+isEastCoast == true
+isWestCoast == false
+isBoston == true
+All GPS info fetched. Saving city and country info
+Timestamp: 1662156115
+Instantaneous GPS information: United States, 1 Charles River Square, Boston, MA 02114, USA
+Logging started
+onServiceStateChanged: Channel Number: 875 Cell Bandwidths: [15000]
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -91 rsrq: -8 rssi: -65 rssnr: -1
+onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -97 ssrsrq: -12 sssinr: 9
+onCellInfoChanged: Operator:  UpdateTimestamp: 275751056 CellConnectionStatus: 1
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 15000 Cell ID: 225546251 Physical Cell ID: 78 Tracking Area Code: 21999 EARFCN: 875
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: Unknown
+Nuttcp Command fired: timeout 15 /data/app/~~YDOCDh6hD9wbKmIegxJp0A==/com.nuwins.cellnetworkinfo-ux4XGwzC8kZLlMRB2q_FWQ==/lib/arm64/libnuttcp.so -v -i0.1 -t -T10 -p5001 54.197.223.49
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: 5G (Sub-6 GHz)
+nuttcp-t: v8.1.4: socket
+nuttcp-t: buflen=65536, nstream=1, port=5001 tcp -> 54.197.223.49
+nuttcp-t: time limit = 10.00 seconds
+nuttcp-t: connect to 54.197.223.49 with mss=1356, RTT=50.371 ms af=inet
+nuttcp-t: send window size = 2097152, receive window size = 6291456
+nuttcp-t: available send window = 1572864, available receive window = 4718592
+nuttcp-t: initial congestion window = 13 KB (10 packets)
+nuttcp-r: v6.1.2: socket
+nuttcp-r: buflen=65536, nstream=1, port=5001 tcp
+nuttcp-r: interval reporting every 0.10 seconds
+nuttcp-r: accept from 172.58.221.242
+nuttcp-r: send window size = 25000000, receive window size = 25000000
+nuttcp-r: available send window = 12500000, available receive window = 12500000
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans     86 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2437 Mbps     0 retrans     86 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4861 Mbps     0 retrans     86 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2406 Mbps     0 retrans     86 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4879 Mbps     0 retrans     86 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4892 Mbps     0 retrans     86 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4844 Mbps     0 retrans     86 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4853 Mbps     0 retrans    120 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4886 Mbps     0 retrans    120 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7257 Mbps     0 retrans    120 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4870 Mbps     0 retrans    120 KB-cwnd
+onCellInfoChanged: Operator:  UpdateTimestamp: 275753586 CellConnectionStatus: 1
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 15000 Cell ID: 225546251 Physical Cell ID: 78 Tracking Area Code: 21999 EARFCN: 875
+    0.1875 MB /   0.10 sec =   15.7249 Mbps     0 retrans    157 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7290 Mbps     0 retrans    157 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7305 Mbps     0 retrans    157 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7283 Mbps     0 retrans    157 KB-cwnd
+Instantaneous GPS information: United States, 21 David G Mugar Way, Boston, MA 02114, USA
+    0.2500 MB /   0.10 sec =   20.9686 Mbps     0 retrans    189 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7305 Mbps     0 retrans    189 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9742 Mbps     0 retrans    202 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9705 Mbps     0 retrans    202 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9663 Mbps     0 retrans    222 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.1887 Mbps     0 retrans    222 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2448 Mbps     0 retrans    222 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2086 Mbps     0 retrans    241 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2236 Mbps     0 retrans    241 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4585 Mbps     0 retrans    244 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2110 Mbps     0 retrans    244 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2136 Mbps     0 retrans    263 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4456 Mbps     0 retrans    263 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2267 Mbps     0 retrans    263 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2149 Mbps     0 retrans    297 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2136 Mbps     0 retrans    297 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4592 Mbps     0 retrans    321 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4522 Mbps     0 retrans    340 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4604 Mbps     0 retrans    340 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2139 Mbps     0 retrans    340 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4573 Mbps     0 retrans    344 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4526 Mbps     0 retrans    384 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2126 Mbps     0 retrans    384 KB-cwnd
+Instantaneous GPS information: United States, 21 David G Mugar Way, Boston, MA 02114, USA
+    0.4375 MB /   0.10 sec =   36.7035 Mbps     0 retrans    405 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    405 KB-cwnd
+onCellInfoChanged: Operator:  UpdateTimestamp: 275756603 CellConnectionStatus: 1
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 15000 Cell ID: 225546251 Physical Cell ID: 78 Tracking Area Code: 21999 EARFCN: 875
+onServiceStateChanged: Channel Number: 875 Cell Bandwidths: [15000, 10000]
+    0.3750 MB /   0.10 sec =   31.4375 Mbps     0 retrans    443 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9856 Mbps     0 retrans    443 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9736 Mbps     0 retrans    443 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7247 Mbps     0 retrans    443 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7323 Mbps     0 retrans    443 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2409 Mbps     0 retrans    443 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2445 Mbps     0 retrans    315 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7236 Mbps     0 retrans    316 KB-cwnd
+    0.5625 MB /   0.10 sec =   47.2001 Mbps     0 retrans    316 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4604 Mbps     0 retrans    329 KB-cwnd
+    0.5000 MB /   0.10 sec =   41.9334 Mbps     0 retrans    329 KB-cwnd
+    0.5625 MB /   0.10 sec =   47.1963 Mbps     0 retrans    341 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2044 Mbps     0 retrans    341 KB-cwnd
+    0.5625 MB /   0.10 sec =   47.1902 Mbps     0 retrans    353 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9778 Mbps     0 retrans    353 KB-cwnd
+    0.5000 MB /   0.10 sec =   41.9393 Mbps     0 retrans    353 KB-cwnd
+onServiceStateChanged: Channel Number: 875 Cell Bandwidths: [15000, 20000, 10000]
+onServiceStateChanged: Channel Number: 875 Cell Bandwidths: [15000, 20000, 10000]
+    0.3750 MB /   0.10 sec =   31.4538 Mbps     0 retrans    370 KB-cwnd
+    0.4375 MB /   0.10 sec =   36.7079 Mbps     0 retrans    370 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.1838 Mbps     0 retrans    370 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    270 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    270 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    270 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    270 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2422 Mbps     0 retrans    270 KB-cwnd
+    0.4375 MB /   0.10 sec =   36.7046 Mbps     0 retrans    270 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4864 Mbps     0 retrans    270 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9742 Mbps     0 retrans    270 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7096 Mbps     0 retrans    279 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7456 Mbps     0 retrans    279 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9724 Mbps     0 retrans    279 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9715 Mbps     0 retrans    279 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2175 Mbps     0 retrans    291 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9713 Mbps     0 retrans    291 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9713 Mbps     0 retrans    291 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9527 Mbps     0 retrans    291 KB-cwnd
+Instantaneous GPS information: United States, 21 David G Mugar Way, Boston, MA 02114, USA
+onCellInfoChanged: Operator:  UpdateTimestamp: 275759585 CellConnectionStatus: 1
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 15000 Cell ID: 225546251 Physical Cell ID: 78 Tracking Area Code: 21999 EARFCN: 875
+    0.2500 MB /   0.10 sec =   20.9740 Mbps     0 retrans    297 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7406 Mbps     0 retrans    297 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9455 Mbps     0 retrans    297 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9984 Mbps     0 retrans    297 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7285 Mbps     0 retrans    297 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2149 Mbps     0 retrans    303 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4557 Mbps     0 retrans    303 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4567 Mbps     0 retrans    305 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2144 Mbps     0 retrans    305 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2149 Mbps     0 retrans    305 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4582 Mbps     0 retrans    308 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4563 Mbps     0 retrans    308 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4570 Mbps     0 retrans    312 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2149 Mbps     0 retrans    312 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4582 Mbps     0 retrans    312 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4551 Mbps     0 retrans    313 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9654 Mbps     0 retrans    313 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2220 Mbps     0 retrans    313 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2162 Mbps     0 retrans    313 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4570 Mbps     0 retrans    313 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2107 Mbps     0 retrans    313 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4589 Mbps     0 retrans    315 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4601 Mbps     0 retrans    315 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.1838 Mbps     0 retrans    315 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4922 Mbps     0 retrans    315 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4598 Mbps     0 retrans    315 KB-cwnd
+Instantaneous GPS information: United States, 21 David G Mugar Way, Boston, MA 02114, USA
+    0.3125 MB /   0.10 sec =   26.2086 Mbps     0 retrans    315 KB-cwnd
+onCellInfoChanged: Operator:  UpdateTimestamp: 275762586 CellConnectionStatus: 1
+onCellInfoChanged: LTE Cell Bands: [2] Bandwidth: 15000 Cell ID: 225546251 Physical Cell ID: 78 Tracking Area Code: 21999 EARFCN: 875
+    0.3125 MB /   0.10 sec =   26.2173 Mbps     0 retrans    315 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4579 Mbps     0 retrans    315 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2154 Mbps     0 retrans    315 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4560 Mbps     0 retrans    315 KB-cwnd
+    0.3750 MB /   0.10 sec =   31.4592 Mbps     0 retrans    315 KB-cwnd
+nuttcp-t: 29.3345 MB in 10.00 real seconds = 3003.72 KB/sec = 24.6065 Mbps
+nuttcp-t: retrans = 0 cwnd = 315 KB
+nuttcp-t: 470 I/O calls, msec/call = 21.79, calls/sec = 47.00
+nuttcp-t: 0.0user 0.0sys 0:10real 0% 0i+0d 1604maxrss 0+1pf 33+2csw
+
+nuttcp-r: 29.3345 MB in 10.78 real seconds = 2786.70 KB/sec = 22.8286 Mbps
+nuttcp-r: 7378 I/O calls, msec/call = 1.50, calls/sec = 684.46
+nuttcp-r: 0.0user 0.1sys 0:10real 1% 0i+0d 92maxrss 0+15pf 6921+1csw
+Average throughput is 25
+Best tput --> 5G sub6 --> 25
+Send buff details: 
+Boston
+United_States
+5G (Sub-6 GHz)
+T-Mobile
+25
+Recv buff details: 
+276
+1
+1
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Nuttcp Logging stopped
+Ping command fired: /system/bin/ping -i 0.2 -s 38 -c 11 54.197.223.49
+PING 54.197.223.49 (54.197.223.49) 38(66) bytes of data.
+46 bytes from 54.197.223.49: icmp_seq=1 ttl=36 time=45.9 ms
+46 bytes from 54.197.223.49: icmp_seq=2 ttl=36 time=58.9 ms
+46 bytes from 54.197.223.49: icmp_seq=3 ttl=36 time=64.5 ms
+46 bytes from 54.197.223.49: icmp_seq=4 ttl=36 time=74.5 ms
+46 bytes from 54.197.223.49: icmp_seq=5 ttl=36 time=51.7 ms
+46 bytes from 54.197.223.49: icmp_seq=6 ttl=36 time=73.1 ms
+46 bytes from 54.197.223.49: icmp_seq=7 ttl=36 time=71.5 ms
+46 bytes from 54.197.223.49: icmp_seq=8 ttl=36 time=70.9 ms
+46 bytes from 54.197.223.49: icmp_seq=9 ttl=36 time=48.9 ms
+46 bytes from 54.197.223.49: icmp_seq=10 ttl=36 time=67.4 ms
+46 bytes from 54.197.223.49: icmp_seq=11 ttl=36 time=76.8 ms
+
+--- 54.197.223.49 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 2009ms
+rtt min/avg/max/mdev = 45.940/64.056/76.893/10.489 ms
+Ping logging stopped
+All Process Stopped

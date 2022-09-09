@@ -1,0 +1,207 @@
+Country == Norway
+City == Oslo kommune
+GPS Info == Bukken Bruses vei 20, 0851 Oslo, Norway
+Network Operator == Telia N
+User movement == Static
+isEastCoast == false
+isWestCoast == false
+isBoston == false
+All GPS info fetched. Saving city and country info
+Timestamp: 1662744264
+Logging started
+onServiceStateChanged: Channel Number: 1650 Cell Bandwidths: [20000, 20000, 20000, 10000]
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -106 rsrq: -10 rssi: -79 rssnr: 6
+onCellInfoChanged: Operator: Telia N UpdateTimestamp: 168024603 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [3] Bandwidth: 20000 Cell ID: 31345941 Physical Cell ID: 198 Tracking Area Code: 2803 EARFCN: 1650
+onCellInfoChanged: Operator: Telia N UpdateTimestamp: 168024603 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [3] Bandwidth: 20000 Cell ID: 31345941 Physical Cell ID: 198 Tracking Area Code: 2803 EARFCN: 1650
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: 5G (Sub-6 GHz)
+onServiceStateChanged: Channel Number: 1650 Cell Bandwidths: [20000, 20000, 20000, 10000]
+Nuttcp Command fired: timeout 15 /data/app/~~8E6TdH32bRNlUC90KDQSBg==/com.nuwins.cellnetworkinfo-CrwsMyCB2PEH8oqffSTVtw==/lib/arm64/libnuttcp.so -v -i0.1 -t -T10 -p5001 18.192.157.241
+nuttcp-t: v8.1.4: socket
+nuttcp-t: buflen=65536, nstream=1, port=5001 tcp -> 18.192.157.241
+nuttcp-t: time limit = 10.00 seconds
+nuttcp-t: connect to 18.192.157.241 with mss=1024, RTT=55.062 ms af=inet
+nuttcp-t: send window size = 1048576, receive window size = 6291456
+nuttcp-t: available send window = 786432, available receive window = 4718592
+nuttcp-t: initial congestion window = 10 KB (10 packets)
+nuttcp-r: v6.1.2: socket
+nuttcp-r: buflen=65536, nstream=1, port=5001 tcp
+nuttcp-r: interval reporting every 0.10 seconds
+nuttcp-r: accept from 46.15.226.185
+nuttcp-r: send window size = 25000000, receive window size = 25000000
+nuttcp-r: available send window = 12500000, available receive window = 12500000
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2426 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2457 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2426 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2421 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    283 KB-cwnd
+onCellInfoChanged: Operator: Telia N UpdateTimestamp: 168029602 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [3] Bandwidth: 20000 Cell ID: 31345941 Physical Cell ID: 198 Tracking Area Code: 2803 EARFCN: 1650
+    0.0625 MB /   0.10 sec =    5.2441 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2443 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    218 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2421 Mbps     0 retrans    265 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4879 Mbps     0 retrans    265 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4819 Mbps     0 retrans    265 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4884 Mbps     0 retrans    265 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2442 Mbps     0 retrans    265 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2427 Mbps     0 retrans    285 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4233 Mbps     0 retrans    285 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2748 Mbps     0 retrans    285 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4814 Mbps     0 retrans    285 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2446 Mbps     0 retrans    285 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4867 Mbps     0 retrans    313 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    313 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2427 Mbps     0 retrans    313 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4838 Mbps     0 retrans    313 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    313 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    313 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2423 Mbps     0 retrans    313 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2423 Mbps     0 retrans    313 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2441 Mbps     0 retrans    313 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    313 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    334 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    334 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2439 Mbps     0 retrans    334 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    334 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4858 Mbps     0 retrans    334 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2424 Mbps     0 retrans    334 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    334 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4862 Mbps     0 retrans    348 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2428 Mbps     0 retrans    348 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    348 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    348 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4843 Mbps     0 retrans    348 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    348 KB-cwnd
+onCellInfoChanged: Operator: Telia N UpdateTimestamp: 168034698 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [3] Bandwidth: 20000 Cell ID: 31345941 Physical Cell ID: 198 Tracking Area Code: 2803 EARFCN: 1650
+    0.1250 MB /   0.10 sec =   10.4866 Mbps     0 retrans    359 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2418 Mbps     0 retrans    359 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2438 Mbps     0 retrans    359 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2428 Mbps     0 retrans    359 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4833 Mbps     0 retrans    359 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    359 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    359 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    359 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4857 Mbps     0 retrans    365 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    365 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    365 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2431 Mbps     0 retrans    365 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2413 Mbps     0 retrans    365 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2440 Mbps     0 retrans    365 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2416 Mbps     0 retrans    365 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    365 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    365 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    368 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2418 Mbps     0 retrans    368 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    368 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    368 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4872 Mbps     0 retrans    369 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    369 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2421 Mbps     0 retrans    370 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2423 Mbps     0 retrans    370 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4853 Mbps     0 retrans    371 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    371 KB-cwnd
+    0.1250 MB /   0.11 sec =    9.5698 Mbps     0 retrans    372 KB-cwnd
+    0.0625 MB /   0.09 sec =    5.7971 Mbps     0 retrans    372 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2450 Mbps     0 retrans    372 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2419 Mbps     0 retrans    372 KB-cwnd
+nuttcp-t: 5.3367 MB in 10.00 real seconds = 546.47 KB/sec = 4.4767 Mbps
+nuttcp-t: retrans = 0 cwnd = 372 KB
+nuttcp-t: 86 I/O calls, msec/call = 119.07, calls/sec = 8.60
+nuttcp-t: 0.0user 0.0sys 0:10real 0% 0i+0d 1624maxrss 0+0pf 9+0csw
+
+nuttcp-r: 5.3367 MB in 11.60 real seconds = 471.11 KB/sec = 3.8593 Mbps
+nuttcp-r: 2942 I/O calls, msec/call = 4.04, calls/sec = 253.63
+nuttcp-r: 0.0user 0.0sys 0:11real 0% 0i+0d 92maxrss 0+14pf 2956+1csw
+Average throughput is 6
+Best tput --> 5G sub6 --> 6
+Send buff details: 
+Oslo_kommune
+Norway
+5G (Sub-6 GHz)
+Telia N
+6
+Recv buff details: 
+758
+1
+1
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Nuttcp Logging stopped
+Ping command fired: /system/bin/ping -i 0.2 -s 38 -c 11 18.192.157.241
+PING 18.192.157.241 (18.192.157.241) 38(66) bytes of data.
+46 bytes from 18.192.157.241: icmp_seq=1 ttl=47 time=48.9 ms
+46 bytes from 18.192.157.241: icmp_seq=2 ttl=47 time=48.3 ms
+46 bytes from 18.192.157.241: icmp_seq=3 ttl=47 time=49.8 ms
+46 bytes from 18.192.157.241: icmp_seq=4 ttl=47 time=47.2 ms
+46 bytes from 18.192.157.241: icmp_seq=5 ttl=47 time=45.7 ms
+46 bytes from 18.192.157.241: icmp_seq=6 ttl=47 time=44.3 ms
+46 bytes from 18.192.157.241: icmp_seq=7 ttl=47 time=43.3 ms
+46 bytes from 18.192.157.241: icmp_seq=8 ttl=47 time=41.5 ms
+46 bytes from 18.192.157.241: icmp_seq=9 ttl=47 time=46.0 ms
+46 bytes from 18.192.157.241: icmp_seq=10 ttl=47 time=40.4 ms
+onCellInfoChanged: Operator: Telia N UpdateTimestamp: 168039712 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [3] Bandwidth: 20000 Cell ID: 31345941 Physical Cell ID: 198 Tracking Area Code: 2803 EARFCN: 1650
+Instantaneous GPS information: Norway, Bukken Bruses vei 21, 0851 Oslo, Norway
+46 bytes from 18.192.157.241: icmp_seq=11 ttl=47 time=41.7 ms
+
+--- 18.192.157.241 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 2009ms
+rtt min/avg/max/mdev = 40.435/45.234/49.802/3.058 ms
+Ping logging stopped
+All Process Stopped

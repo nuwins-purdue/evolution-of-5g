@@ -1,0 +1,213 @@
+Country == India
+City == Howrah
+GPS Info == 98/1, Shibpur Rd, Naora, Shibpur, Howrah, West Bengal 711102, India
+Network Operator == JIO 4G
+User movement == Static
+isEastCoast == false
+isWestCoast == false
+isBoston == false
+All GPS info fetched. Saving city and country info
+Timestamp: 1662221537
+Logging started
+onServiceStateChanged: Channel Number: 2463 Cell Bandwidths: []
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -108 rsrq: -10 rssi: -109 rssnr: 2
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166053426 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858673 Physical Cell ID: 154 Tracking Area Code: 7 EARFCN: 2463
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+Nuttcp Command fired: timeout 15 /data/app/~~eX7Gy6fsq5Cotx2lpaxE-g==/com.nuwins.cellnetworkinfo-AIzP8QjZOPXVMEPJUVBckQ==/lib/arm64/libnuttcp.so -v -i0.1 -t -T10 -p5001 18.192.157.241
+onServiceStateChanged: Channel Number: 1251 Cell Bandwidths: []
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -114 rsrq: -9 rssi: -113 rssnr: 0
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166056069 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858660 Physical Cell ID: 196 Tracking Area Code: 7 EARFCN: 1251
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166058081 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858660 Physical Cell ID: 196 Tracking Area Code: 7 EARFCN: 1251
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166061365 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858660 Physical Cell ID: 196 Tracking Area Code: 7 EARFCN: 1251
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -114 rsrq: -9 rssi: -113 rssnr: 0
+nuttcp-t: v8.1.4: socket
+nuttcp-t: buflen=65536, nstream=1, port=5001 tcp -> 18.192.157.241
+nuttcp-t: time limit = 10.00 seconds
+nuttcp-t: connect to 18.192.157.241 with mss=1358, RTT=202.846 ms af=inet
+nuttcp-t: send window size = 2097152, receive window size = 4194304
+nuttcp-t: available send window = 1572864, available receive window = 3145728
+nuttcp-t: initial congestion window = 13 KB (10 packets)
+nuttcp-r: v6.1.2: socket
+nuttcp-r: buflen=65536, nstream=1, port=5001 tcp
+nuttcp-r: interval reporting every 0.10 seconds
+nuttcp-r: accept from 157.40.112.225
+nuttcp-r: send window size = 25000000, receive window size = 25000000
+nuttcp-r: available send window = 12500000, available receive window = 12500000
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2445 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    137 KB-cwnd
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166064336 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858660 Physical Cell ID: 196 Tracking Area Code: 7 EARFCN: 1251
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2424 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2428 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    185 KB-cwnd
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166067365 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858660 Physical Cell ID: 196 Tracking Area Code: 7 EARFCN: 1251
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2426 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    246 KB-cwnd
+Average throughput is 0
+Best tput --> LTE --> 0
+Send buff details: 
+Howrah
+India
+LTE-CA
+JIO 4G
+0
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166070327 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858660 Physical Cell ID: 196 Tracking Area Code: 7 EARFCN: 1251
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166073335 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858660 Physical Cell ID: 196 Tracking Area Code: 7 EARFCN: 1251
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166076308 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858660 Physical Cell ID: 196 Tracking Area Code: 7 EARFCN: 1251
+Recv buff details: 
+618
+1
+1
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Nuttcp Logging stopped
+Ping command fired: /system/bin/ping -i 0.2 -s 38 -c 11 18.192.157.241
+PING 18.192.157.241 (18.192.157.241) 38(66) bytes of data.
+46 bytes from 18.192.157.241: icmp_seq=1 ttl=42 time=273 ms
+46 bytes from 18.192.157.241: icmp_seq=2 ttl=42 time=196 ms
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -127 rsrq: -20 rssi: -113 rssnr: -2
+Instantaneous GPS information: India, 104/B/13, Naora, Shibpur, Howrah, West Bengal 711102, India
+onCellInfoChanged: Operator: JIO 4G UpdateTimestamp: 166079292 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [] Bandwidth: 2147483647 Cell ID: 858660 Physical Cell ID: 196 Tracking Area Code: 7 EARFCN: 1251
+46 bytes from 18.192.157.241: icmp_seq=3 ttl=42 time=538 ms
+46 bytes from 18.192.157.241: icmp_seq=4 ttl=42 time=457 ms
+46 bytes from 18.192.157.241: icmp_seq=5 ttl=42 time=265 ms
+46 bytes from 18.192.157.241: icmp_seq=6 ttl=42 time=225 ms
+46 bytes from 18.192.157.241: icmp_seq=7 ttl=42 time=201 ms
+46 bytes from 18.192.157.241: icmp_seq=8 ttl=42 time=191 ms
+46 bytes from 18.192.157.241: icmp_seq=9 ttl=42 time=214 ms
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -114 rsrq: -11 rssi: -113 rssnr: -3
+46 bytes from 18.192.157.241: icmp_seq=10 ttl=42 time=194 ms
+46 bytes from 18.192.157.241: icmp_seq=11 ttl=42 time=189 ms
+
+--- 18.192.157.241 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 2009ms
+rtt min/avg/max/mdev = 189.499/267.956/538.415/113.117 ms, pipe 3
+Ping logging stopped
+All Process Stopped

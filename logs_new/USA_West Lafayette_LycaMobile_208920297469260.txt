@@ -1,0 +1,219 @@
+Country == United States
+City == West Lafayette
+GPS Info == 282 Littleton St, West Lafayette, IN 47906, USA
+Network Operator == LycaMobile
+User movement == Walking
+isEastCoast == true
+isWestCoast == false
+isBoston == false
+All GPS info fetched. Saving city and country info
+Timestamp: 1662730520
+Logging started
+onServiceStateChanged: Channel Number: 39750 Cell Bandwidths: [20000]
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -97 rsrq: -8 rssi: -69 rssnr: 7
+onCellInfoChanged: Operator: LycaMobile UpdateTimestamp: 696845794 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [41] Bandwidth: 20000 Cell ID: 25723779 Physical Cell ID: 103 Tracking Area Code: 42235 EARFCN: 39750
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+Nuttcp Command fired: timeout 15 /data/app/~~zTjg7ABB_A75gSPInuDHDQ==/com.nuwins.cellnetworkinfo-b84gplEuMN3Lq3Y_APLFKw==/lib/arm64/libnuttcp.so -v -i0.1 -t -T10 -p5001 54.197.223.49
+Instantaneous GPS information: United States, 120 W Fowler Ave, West Lafayette, IN 47906, USA
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -95 rsrq: -12 rssi: -61 rssnr: 10
+onServiceStateChanged: Channel Number: 39750 Cell Bandwidths: [20000, 20000]
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+Instantaneous GPS information: United States, 120 W Fowler Ave, West Lafayette, IN 47906, USA
+onCellInfoChanged: Operator: LycaMobile UpdateTimestamp: 696850368 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [41] Bandwidth: 20000 Cell ID: 25723779 Physical Cell ID: 103 Tracking Area Code: 42235 EARFCN: 39750
+nuttcp-t: v8.1.4: socket
+nuttcp-t: buflen=65536, nstream=1, port=5001 tcp -> 54.197.223.49
+nuttcp-t: time limit = 10.00 seconds
+nuttcp-t: connect to 54.197.223.49 with mss=1388, RTT=669.985 ms af=inet
+nuttcp-t: send window size = 131072, receive window size = 4194304
+nuttcp-t: available send window = 98304, available receive window = 3145728
+nuttcp-t: initial congestion window = 13 KB (10 packets)
+nuttcp-r: v6.1.2: socket
+nuttcp-r: buflen=65536, nstream=1, port=5001 tcp
+nuttcp-r: interval reporting every 0.10 seconds
+nuttcp-r: accept from 172.58.203.237
+nuttcp-r: send window size = 25000000, receive window size = 25000000
+nuttcp-r: available send window = 12500000, available receive window = 12500000
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans     60 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans     60 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans     60 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    124 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    199 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    199 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    199 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    199 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2414 Mbps     0 retrans    199 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2447 Mbps     0 retrans    284 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2424 Mbps     0 retrans    287 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    757 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    757 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    757 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2414 Mbps     0 retrans    757 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2440 Mbps     0 retrans    757 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    757 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    757 KB-cwnd
+Instantaneous GPS information: United States, 122 W Fowler Ave, West Lafayette, IN 47906, USA
+onServiceStateChanged: Channel Number: 39750 Cell Bandwidths: [20000]
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+onCellInfoChanged: Operator: LycaMobile UpdateTimestamp: 696853878 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [41] Bandwidth: 20000 Cell ID: 9586051 Physical Cell ID: 102 Tracking Area Code: 42235 EARFCN: 39750
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2427 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    504 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2420 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    504 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    504 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    538 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2426 Mbps     0 retrans    538 KB-cwnd
+    0.2500 MB /   0.10 sec =   20.9749 Mbps     0 retrans    538 KB-cwnd
+    0.3125 MB /   0.10 sec =   26.2152 Mbps     0 retrans    538 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4859 Mbps     0 retrans    538 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2408 Mbps     0 retrans    538 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2447 Mbps     0 retrans    538 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    538 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    538 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    538 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2409 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2427 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    375 KB-cwnd
+Instantaneous GPS information: United States, 122 W Fowler Ave, West Lafayette, IN 47906, USA
+onServiceStateChanged: Channel Number: 39750 Cell Bandwidths: [20000]
+onCellInfoChanged: Operator: LycaMobile UpdateTimestamp: 696856913 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [41] Bandwidth: 20000 Cell ID: 25723779 Physical Cell ID: 103 Tracking Area Code: 42235 EARFCN: 39750
+onServiceStateChanged: Channel Number: 39750 Cell Bandwidths: [20000, 20000]
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: LTE-CA
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    379 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2417 Mbps     0 retrans    379 KB-cwnd
+    0.5625 MB /   0.10 sec =   47.1963 Mbps     0 retrans    379 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    379 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4890 Mbps     0 retrans    379 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2416 Mbps     0 retrans    379 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2435 Mbps     0 retrans    379 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2432 Mbps     0 retrans    391 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4863 Mbps     0 retrans    391 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    391 KB-cwnd
+    0.1250 MB /   0.10 sec =   10.4856 Mbps     0 retrans    401 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2428 Mbps     0 retrans    401 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2424 Mbps     0 retrans    401 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2434 Mbps     0 retrans    401 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2409 Mbps     0 retrans    405 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    405 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2425 Mbps     0 retrans    405 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    405 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2443 Mbps     0 retrans    407 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    407 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    407 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2421 Mbps     0 retrans    410 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    412 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    417 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    417 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2440 Mbps     0 retrans    418 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    420 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2427 Mbps     0 retrans    421 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    424 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2427 Mbps     0 retrans    428 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2429 Mbps     0 retrans    429 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2430 Mbps     0 retrans    432 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    433 KB-cwnd
+    0.0625 MB /   0.10 sec =    5.2431 Mbps     0 retrans    435 KB-cwnd
+    0.0000 MB /   0.10 sec =    0.0000 Mbps     0 retrans    435 KB-cwnd
+nuttcp-t: 4.1767 MB in 10.00 real seconds = 427.68 KB/sec = 3.5036 Mbps
+nuttcp-t: retrans = 0 cwnd = 435 KB
+nuttcp-t: 67 I/O calls, msec/call = 152.84, calls/sec = 6.70
+nuttcp-t: 0.0user 0.0sys 0:10real 0% 0i+0d 1866maxrss 0+1pf 13+2csw
+
+nuttcp-r: 4.1767 MB in 11.42 real seconds = 374.51 KB/sec = 3.0680 Mbps
+nuttcp-r: 1108 I/O calls, msec/call = 10.55, calls/sec = 97.02
+nuttcp-r: 0.0user 0.0sys 0:11real 0% 0i+0d 92maxrss 0+15pf 1155+0csw
+Average throughput is 4
+Best tput --> LTE --> 4
+Send buff details: 
+West Lafayette
+United States
+LTE-CA
+LycaMobile
+4
+Instantaneous GPS information: United States, 122 W Fowler Ave, West Lafayette, IN 47906, USA
+Instantaneous GPS information: United States, 122 W Fowler Ave, West Lafayette, IN 47906, USA
+onCellInfoChanged: Operator: LycaMobile UpdateTimestamp: 696861721 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [41] Bandwidth: 20000 Cell ID: 25723779 Physical Cell ID: 103 Tracking Area Code: 42235 EARFCN: 39750
+Recv buff details: 
+812
+1
+1
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Nuttcp Logging stopped
+Ping command fired: /system/bin/ping -i 0.2 -s 38 -c 11 54.197.223.49
+PING 54.197.223.49 (54.197.223.49) 38(66) bytes of data.
+46 bytes from 54.197.223.49: icmp_seq=1 ttl=43 time=82.2 ms
+46 bytes from 54.197.223.49: icmp_seq=2 ttl=43 time=78.3 ms
+46 bytes from 54.197.223.49: icmp_seq=3 ttl=43 time=77.3 ms
+46 bytes from 54.197.223.49: icmp_seq=4 ttl=43 time=126 ms
+46 bytes from 54.197.223.49: icmp_seq=5 ttl=43 time=116 ms
+Instantaneous GPS information: United States, 122 W Fowler Ave, West Lafayette, IN 47906, USA
+46 bytes from 54.197.223.49: icmp_seq=6 ttl=43 time=81.5 ms
+46 bytes from 54.197.223.49: icmp_seq=7 ttl=43 time=116 ms
+46 bytes from 54.197.223.49: icmp_seq=8 ttl=43 time=74.8 ms
+46 bytes from 54.197.223.49: icmp_seq=9 ttl=43 time=113 ms
+46 bytes from 54.197.223.49: icmp_seq=10 ttl=43 time=115 ms
+46 bytes from 54.197.223.49: icmp_seq=11 ttl=43 time=113 ms
+
+--- 54.197.223.49 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 2007ms
+rtt min/avg/max/mdev = 74.811/99.711/126.689/19.417 ms
+Ping logging stopped
+All Process Stopped
