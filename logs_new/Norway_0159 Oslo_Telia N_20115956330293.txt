@@ -1,0 +1,166 @@
+Country == Norway
+City == Oslo kommune
+GPS Info == Karl Johans gate 21, 0159 Oslo, Norway
+Network Operator == Telia N
+User movement == Walking
+isEastCoast == false
+isWestCoast == false
+isBoston == false
+All GPS info fetched. Saving city and country info
+Timestamp: 1663087373
+Logging started
+onServiceStateChanged: Channel Number: 100 Cell Bandwidths: [20000]
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -82 rsrq: -15 rssi: -51 rssnr: 0
+onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -88 ssrsrq: -15 sssinr: -8
+onCellInfoChanged: Operator: Telia N UpdateTimestamp: 511134569 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [1] Bandwidth: 20000 Cell ID: 30803213 Physical Cell ID: 387 Tracking Area Code: 2804 EARFCN: 100
+onCellInfoChanged: Operator: Telia N UpdateTimestamp: 511134569 CellConnectionStatus: 0
+onCellInfoChanged: LTE Cell Bands: [1] Bandwidth: 20000 Cell ID: 30803213 Physical Cell ID: 387 Tracking Area Code: 2804 EARFCN: 100
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: 5G (Sub-6 GHz)
+Nuttcp Command fired: timeout 15 /data/app/~~8E6TdH32bRNlUC90KDQSBg==/com.nuwins.cellnetworkinfo-CrwsMyCB2PEH8oqffSTVtw==/lib/arm64/libnuttcp.so -v -i0.1 -t -T10 -p5001 18.192.157.241
+nuttcp-t: v8.1.4: socket
+nuttcp-t: buflen=65536, nstream=1, port=5001 tcp -> 18.192.157.241
+nuttcp-t: time limit = 10.00 seconds
+nuttcp-t: connect to 18.192.157.241 with mss=1024, RTT=30.345 ms af=inet
+nuttcp-t: send window size = 2097152, receive window size = 6291456
+nuttcp-t: available send window = 1572864, available receive window = 4718592
+nuttcp-t: initial congestion window = 10 KB (10 packets)
+nuttcp-r: v6.1.2: socket
+nuttcp-r: buflen=65536, nstream=1, port=5001 tcp
+nuttcp-r: interval reporting every 0.10 seconds
+nuttcp-r: accept from 46.15.226.185
+nuttcp-r: send window size = 25000000, receive window size = 25000000
+nuttcp-r: available send window = 12500000, available receive window = 12500000
+    0.0625 MB /   0.10 sec =    5.2403 Mbps     0 retrans    513 KB-cwnd
+    0.1875 MB /   0.10 sec =   15.7286 Mbps     0 retrans    514 KB-cwnd
+    0.6250 MB /   0.10 sec =   52.4477 Mbps     0 retrans    784 KB-cwnd
+    1.5000 MB /   0.10 sec =  125.8291 Mbps     0 retrans   1421 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0786 Mbps     0 retrans   1497 KB-cwnd
+    1.5000 MB /   0.10 sec =  125.8140 Mbps     0 retrans   1574 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3244 Mbps     0 retrans   1662 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3094 Mbps     0 retrans   1749 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5663 Mbps     0 retrans   1749 KB-cwnd
+    1.5000 MB /   0.10 sec =  125.8266 Mbps     0 retrans   1840 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0733 Mbps     0 retrans   1945 KB-cwnd
+    1.4375 MB /   0.10 sec =  120.5874 Mbps     0 retrans   1945 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0733 Mbps     0 retrans   2050 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3135 Mbps     0 retrans   2050 KB-cwnd
+Instantaneous GPS information: Norway, Karl Johans gate 13 B, 0154 Oslo, Norway
+onsignalStrengthsChanged: LTE Signal Strength info: rsrp: -82 rsrq: -14 rssi: -51 rssnr: 0
+onsignalStrengthsChanged: 5G-NR Signal Strength info: ssrsrp: -86 ssrsrq: -17 sssinr: 2147483647
+onDisplayInfoChanged: NetworkType: LTE OverrideNetworkType: None
+    1.5000 MB /   0.10 sec =  125.7788 Mbps     0 retrans   2079 KB-cwnd
+Instantaneous GPS information: Norway, Karl Johans gate 13 B, 0154 Oslo, Norway
+    1.6250 MB /   0.10 sec =  133.8349 Mbps     0 retrans   2079 KB-cwnd
+    1.5000 MB /   0.10 sec =  128.2505 Mbps     0 retrans   2079 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3190 Mbps     0 retrans   2079 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5493 Mbps     0 retrans   2079 KB-cwnd
+    1.3750 MB /   0.10 sec =  115.3411 Mbps     0 retrans   2079 KB-cwnd
+    1.7500 MB /   0.10 sec =  146.7977 Mbps     0 retrans   2079 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3190 Mbps     0 retrans   2079 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3162 Mbps     0 retrans   2079 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3094 Mbps     0 retrans   2079 KB-cwnd
+    1.8750 MB /   0.10 sec =  157.2990 Mbps     0 retrans   2079 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0694 Mbps     0 retrans   2079 KB-cwnd
+    1.7500 MB /   0.10 sec =  146.8109 Mbps     0 retrans   2079 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0615 Mbps     0 retrans   2079 KB-cwnd
+    1.8125 MB /   0.10 sec =  152.0542 Mbps     0 retrans   2079 KB-cwnd
+    1.2500 MB /   0.10 sec =  104.8398 Mbps     0 retrans   2079 KB-cwnd
+    2.1250 MB /   0.10 sec =  178.2918 Mbps     0 retrans   2079 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5535 Mbps     0 retrans   2079 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3176 Mbps     0 retrans   2079 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0366 Mbps     0 retrans   2079 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5932 Mbps     0 retrans   2079 KB-cwnd
+    1.7500 MB /   0.10 sec =  146.7331 Mbps     0 retrans   2080 KB-cwnd
+    1.7500 MB /   0.10 sec =  146.2449 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  142.1534 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5606 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3094 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  133.7168 Mbps     0 retrans   2080 KB-cwnd
+    1.5000 MB /   0.10 sec =  128.3290 Mbps     0 retrans   2080 KB-cwnd
+    1.1250 MB /   0.10 sec =   94.3417 Mbps     0 retrans   2080 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.1048 Mbps     0 retrans   2080 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0812 Mbps     0 retrans   2080 KB-cwnd
+Instantaneous GPS information: Norway, Karl Johans gate 13 B, 0154 Oslo, Norway
+    1.6250 MB /   0.10 sec =  136.3135 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3094 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5691 Mbps     0 retrans   2080 KB-cwnd
+    1.5000 MB /   0.10 sec =  125.8279 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5054 Mbps     0 retrans   2080 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.1087 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.2767 Mbps     0 retrans   2080 KB-cwnd
+    1.8125 MB /   0.10 sec =  149.7759 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  138.4582 Mbps     0 retrans   2080 KB-cwnd
+    1.8125 MB /   0.10 sec =  151.1863 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  142.3764 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5592 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.0279 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.5990 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5521 Mbps     0 retrans   2080 KB-cwnd
+    1.7500 MB /   0.10 sec =  146.8050 Mbps     0 retrans   2080 KB-cwnd
+    1.8125 MB /   0.10 sec =  152.0207 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3299 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3040 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5733 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5578 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5563 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3190 Mbps     0 retrans   2080 KB-cwnd
+    1.3125 MB /   0.10 sec =  110.0653 Mbps     0 retrans   2080 KB-cwnd
+    1.6875 MB /   0.10 sec =  141.5847 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3258 Mbps     0 retrans   2080 KB-cwnd
+    1.6250 MB /   0.10 sec =  136.3176 Mbps     0 retrans   2080 KB-cwnd
+    1.5625 MB /   0.10 sec =  131.0602 Mbps     0 retrans   2080 KB-cwnd
+    1.7500 MB /   0.10 sec =  146.7948 Mbps     0 retrans   2080 KB-cwnd
+    1.7500 MB /   0.10 sec =  146.8183 Mbps     0 retrans   2080 KB-cwnd
+nuttcp-t: 119.1250 MB in 7.24 real seconds = 16851.18 KB/sec = 138.0449 Mbps
+nuttcp-t: retrans = 0 cwnd = 2080 KB
+nuttcp-t: 1907 I/O calls, msec/call = 3.89, calls/sec = 263.44
+nuttcp-t: 0.0user 0.0sys 0:07real 1% 0i+0d 1608maxrss 0+0pf 47+37csw
+
+nuttcp-r: 119.1360 MB in 7.60 real seconds = 16062.44 KB/sec = 131.5835 Mbps
+nuttcp-r: 16500 I/O calls, msec/call = 0.47, calls/sec = 2172.46
+nuttcp-r: 0.0user 0.1sys 0:07real 2% 0i+0d 92maxrss 0+14pf 14164+2csw
+Average throughput is 138
+Best tput --> LTE --> 137
+Send buff details: 
+Oslo_kommune
+Norway
+LTE-CA
+Telia N
+137
+Recv buff details: 
+35
+1
+1
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+N/A
+Nuttcp Logging stopped
+Ping command fired: /system/bin/ping -i 0.2 -s 38 -c 11 18.192.157.241
+PING 18.192.157.241 (18.192.157.241) 38(66) bytes of data.
+46 bytes from 18.192.157.241: icmp_seq=1 ttl=47 time=30.0 ms
+46 bytes from 18.192.157.241: icmp_seq=2 ttl=47 time=47.9 ms
+46 bytes from 18.192.157.241: icmp_seq=3 ttl=47 time=51.9 ms
+46 bytes from 18.192.157.241: icmp_seq=4 ttl=47 time=42.0 ms
+46 bytes from 18.192.157.241: icmp_seq=5 ttl=47 time=48.4 ms
+46 bytes from 18.192.157.241: icmp_seq=6 ttl=47 time=37.4 ms
+46 bytes from 18.192.157.241: icmp_seq=7 ttl=47 time=38.9 ms
+46 bytes from 18.192.157.241: icmp_seq=8 ttl=47 time=33.8 ms
+46 bytes from 18.192.157.241: icmp_seq=9 ttl=47 time=47.6 ms
+46 bytes from 18.192.157.241: icmp_seq=10 ttl=47 time=37.8 ms
+46 bytes from 18.192.157.241: icmp_seq=11 ttl=47 time=38.6 ms
+
+--- 18.192.157.241 ping statistics ---
+11 packets transmitted, 11 received, 0% packet loss, time 2287ms
+rtt min/avg/max/mdev = 30.046/41.335/51.972/6.550 ms
+Ping logging stopped
+All Process Stopped
