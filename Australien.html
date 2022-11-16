@@ -2,92 +2,32 @@
 <script>
 	var country="check";
 	function findMyState () {
-		// const status = document.querySelector('.status');
-		function success (position) {
-			// console.log(position)
-			const latitude = position.coords.latitude;
-			const longitude = position.coords.longitude;
-			const geoApiUrl = 'https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=en'
-
-			fetch(geoApiUrl)
-			.then(res => res.json())
-			.then(data => {
-				// console.log(data)
-				
-				console.log(data.countryName)
-				country=data.countryName;
-				var allElements = document.getElementsByClassName("img_class");
-				var allIds = [];
-				for (var i = 0, n = allElements.length; i < n; ++i) {
-					var el = allElements[i];
-					// console.log(el.src)
-					el.src = el.src.replace("country_placeholder", country);
-					// if (el.id) { allIds.push(el.id); }
-				}
-				var dict = {1:'January', 2:'February', 3:'March', 4:'April', 5:'May', 6:'June', 7:'July', 8:'August', 9:'September', 10:'October', 11:'November', 12:'December'}
-				const d = new Date();
-				var month = d.getMonth() + 1
-				console.log("Country Changed!");
-				document.getElementById("main").style.display = "block";
-				document.getElementById("loaderIcon").style.display = "none";
-				document.getElementById("loaderHeader").style.display = "none";
-				document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + data.countryName + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + ".</b>";
-				document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + data.countryName;
-				document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G mmWave)";
-				document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + data.countryName;
-				document.getElementById("heading_sub6_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G sub-6 GHz)" ;
-				document.getElementById("heading_sub6_mobility").innerHTML = "5G sub-6 Ghz performance in diverse user mobility scenarios in " + data.countryName;
-				document.getElementById("heading_lte_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (LTE)" ;
-				document.getElementById("heading_lte_mobility").innerHTML = "LTE performance in diverse user mobility scenarios in " + data.countryName;
-				document.getElementById("heading5").innerHTML = "Network perfromance trend in " + data.countryName;
-				document.getElementById("defaultOpen").click();
-				document.getElementById("defaultOpenOverall").click();
-				document.getElementById("defaultOpenmmWave").click();
-				document.getElementById("defaultOpensub6").click();
-				document.getElementById("defaultOpenLte").click();
-
-			})
-		}
-
-		function error () {
-			status.textContent = 'Unable to retrieve your location!';
-			// alert('Unable to retrieve your location');
+			country="Australien";
+			var allElements = document.getElementsByClassName("img_class");
+			var allIds = [];
+			for (var i = 0, n = allElements.length; i < n; ++i) {
+				var el = allElements[i];
+				// console.log(el.src)
+				el.src = el.src.replace("country_placeholder", country);
+				// if (el.id) { allIds.push(el.id); }
+			}
+			var dict = {1:'January', 2:'February', 3:'March', 4:'April', 5:'May', 6:'June', 7:'July', 8:'August', 9:'September', 10:'October', 11:'November', 12:'December'}
+			const d = new Date();
+			var month = d.getMonth() + 1
+			console.log("Country is Australien!");
+			document.getElementById("main").style.display = "block";
 			document.getElementById("loaderIcon").style.display = "none";
 			document.getElementById("loaderHeader").style.display = "none";
-			document.getElementById("failure").style.display = "block";
-		}
-
-		if (!navigator.geolocation) {
-			status.textContent = 'Geolocation is not supported by your browser!';
-			// alert('Geolocation is not supported by your browser');
-			document.getElementById("loaderIcon").style.display = "none";
-			document.getElementById("loaderHeader").style.display = "none";
-			document.getElementById("failure").style.display = "block";
-		}
-		else {
-			status.textContent = 'Locating…';
-    		navigator.geolocation.getCurrentPosition(success, error);
-		}
-	}
-	function openThroughputLatency(evt, displayType, tabcontentVar, tablinksVar) {
-		// Declare all variables
-		var i, tabcontent, tablinks;
-
-		// Get all elements with class="tabcontent" and hide them
-		tabcontent = document.getElementsByClassName(tabcontentVar);
-		for (i = 0; i < tabcontent.length; i++) {
-			tabcontent[i].style.display = "none";
-		}
-
-		// Get all elements with class="tablinks" and remove the class "active"
-		tablinks = document.getElementsByClassName(tablinksVar);
-		for (i = 0; i < tablinks.length; i++) {
-			tablinks[i].className = tablinks[i].className.replace(" active", "");
-		}
-
-		// Show the current tab, and add an "active" class to the button that opened the tab
-		document.getElementById(displayType).style.display = "block";
-		evt.currentTarget.className += " active";
+			document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + country + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + ".</b>";
+			document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + country;
+			document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + country + " (5G mmWave)";
+			document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + country;
+			document.getElementById("heading_sub6_top10").innerHTML = "Network performance of top 10 cities in " + country + " (5G sub-6 GHz)" ;
+			document.getElementById("heading_sub6_mobility").innerHTML = "5G sub-6 Ghz performance in diverse user mobility scenarios in " + country;
+			document.getElementById("heading_lte_top10").innerHTML = "Network performance of top 10 cities in " + country + " (LTE)" ;
+			document.getElementById("heading_lte_mobility").innerHTML = "LTE performance in diverse user mobility scenarios in " + country;
+			document.getElementById("heading5").innerHTML = "Network perfromance trend in " + country;
+			document.getElementById("defaultOpen").click();
 	}
 
 	function openPerformancePlot(evt, cityName) {
@@ -180,43 +120,6 @@
 		from {opacity: 0;}
 		to {opacity: 1;}
 		}
-		/* hover start */
-		.dropbtn {
-			background-color: #ffffff;
-			color: rgb(11, 26, 226);
-			/* padding: 10px; */
-			font-size: 20px;
-			border: none;
-		}
-
-		.dropdown {
-		position: relative;
-		display: inline-block;
-		}
-
-		.dropdown-content {
-		display: none;
-		position: absolute;
-		background-color: #f1f1f1;
-		min-width: 160px;
-		/* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
-		z-index: 1;
-		}
-
-		.dropdown-content a {
-		color: black;
-		/* padding: 12px 16px; */
-		text-decoration: none;
-		font-size: 17px;
-		display: block;
-		}
-
-		.dropdown-content a:hover {background-color: #ddd;}
-
-		.dropdown:hover .dropdown-content {display: block;}
-
-		.dropdown:hover .dropbtn {background-color: #dddbdb;}
-		/* hover end */
 
 </style>
 <html>
@@ -230,7 +133,7 @@
 
 		gtag('config', 'UA-61003129-2');
 		</script>
-		
+
 		<title>NextG-UP: Evolution of 5G</title>
 		<link rel="icon" type="image/png" href="images/nu.png">
 		<meta charset="utf-8" />
@@ -247,29 +150,6 @@
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li><a href="contact.html">Contact Us</a></li>
-							<li>
-								<a href="#" class="icon solid fa-angle-down">Specific Country Stats</a>
-								<ul>
-									<!-- modification start specific_stat -->
-<li><a href="Greece.html">Greece</a></li>
-<li><a href="España.html">España</a></li>
-<li><a href="Germany.html">Germany</a></li>
-<li><a href="Luxembourg.html">Luxembourg</a></li>
-<li><a href="United States.html">United States</a></li>
-<li><a href="UK.html">UK</a></li>
-<li><a href="Netherlands.html">Netherlands</a></li>
-<li><a href="澳洲.html">澳洲</a></li>
-<li><a href="Canada.html">Canada</a></li>
-<li><a href="Norway.html">Norway</a></li>
-<li><a href="Denmark.html">Denmark</a></li>
-<li><a href="India.html">India</a></li>
-<li><a href="Australia.html">Australia</a></li>
-<li><a href="country_placeholder.html">country_placeholder</a></li>
-<li><a href="Australien.html">Australien</a></li>
-<li><a href="Deutschland.html">Deutschland</a></li>
-									<!-- modification end specific_stat -->
-								</ul>
-							</li>
 						</ul>
 					</nav>
 				</header>
@@ -277,54 +157,7 @@
 			<!-- Banner -->
 				<section id="banner">
 				</section>
-			<!-- Failure -->
-			<section id="failure" class="container" style="display: none">
 
-				<section class="box special">
-					<header class="major">
-						<h2>NextG-UP: Evolution of 5G
-						<br />
-						</h2>
-						<h4 id="heading0-1">This is a crowd sourced project jointly initiated by <a href="https://ece.northeastern.edu/fac-ece/dkoutsonikolas/nuwins/">Northeastern University WiNS Lab</a> and Purdue University <a href="https://engineering.purdue.edu/~dsnl/"> Distributed Systems & Networking Lab</a>.
-							<br />
-							We collect uplink cellular network measurements from users across the globe using our Android application, <a href="https://play.google.com/store/apps/details?id=com.nuwins.cellnetworkinfo&hl=en_US&gl=US">NextG-UP</a>.
-							<br />
-							Sorry! Could not find your location/no data found for your area. But you can see world-wide cellular network statistics (below) and statistics of selected countries
-							<div class="dropdown">
-								<button class="dropbtn">here</button>
-								<div class="dropdown-content">
-									<!-- modification start dropdown -->
-<a href="Greece.html">Greece</a>
-<a href="España.html">España</a>
-<a href="Germany.html">Germany</a>
-<a href="Luxembourg.html">Luxembourg</a>
-<a href="United States.html">United States</a>
-<a href="UK.html">UK</a>
-<a href="Netherlands.html">Netherlands</a>
-<a href="澳洲.html">澳洲</a>
-<a href="Canada.html">Canada</a>
-<a href="Norway.html">Norway</a>
-<a href="Denmark.html">Denmark</a>
-<a href="India.html">India</a>
-<a href="Australia.html">Australia</a>
-<a href="country_placeholder.html">country_placeholder</a>
-<a href="Australien.html">Australien</a>
-<a href="Deutschland.html">Deutschland</a>
-									<!-- modification end dropdown -->
-								</div>
-							  </div>
-						</h4>
-						<!-- <p id="para1"></p> -->
-					</header>
-				</section>
-				<section class="box special features">
-					<h3 id="heading_worldwide_failure">Cellular network usage statistics globally</h3>
-					<div class="features-row">
-						<embed class = "img_class" src="images/performance_plots/worldwide/worlwide_stats.jpg" width="100%" height="100%" />
-					</div>
-				</section>
-			</section>
-			<!-- Failure end -->
 			<!-- Main -->
 				<section id="main" class="container" style="display: none">
 
@@ -350,11 +183,6 @@
 					</section>
 					<section class="box special features">
 						<h3 id="heading_overall"></h3>
-						<!-- <div class="tab">
-							<button class="tablinks_overall" onclick="openThroughputLatency(event, 'Throughput_overall', 'tabcontent_overall', 'tablinks_overall')" id="defaultOpenOverall">Throughput</button>
-							<button class="tablinks_overall" onclick="openThroughputLatency(event, 'Latency_overall', 'tabcontent_overall', 'tablinks_overall')">Latency</button>
-						</div> -->
-						<!-- Tab content -->
 						<div id="Throughput_overall" class="tabcontent_overall">
 							<embed class = "img_class" src="images/performance_plots/country_placeholder/overall_country_throughput.jpg" width="100%" height="100%"/>
 						</div>
@@ -373,14 +201,14 @@
 					<section class="box special features">
 						<!-- <h3>Network performance of top 10 cities in the United States (5G mmWave)</h3> -->
 						<h3 id="heading_mmWave_top10"></h3>
-						<div class="features-row">
+						   <div class="features-row">  
 							<div id="Throughput_mmWave_top10" class="tabcontent_mmWave_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_throughput.jpg" width="100%" height="100%"/>
 							</div>
 							<div id="Latency_mmWave_top10" class="tabcontent_mmWave_top10">
 								<embed class = "img_class" src="images/performance_plots/country_placeholder/top_10_cities_mmwave_latency.jpg" width="100%" height="100%" />
 							</div>
-						</div>
+                        </div>
 					</section>
 					<section class="box special features">
 						<!-- <h3>5G mmWave performance in diverse user mobility scenarios in the United States</h3> -->
@@ -444,10 +272,10 @@
 						</div>
 					</section>
 					<!-- LTE end -->
-					<!-- performance trend section starts -->
-				<!-- 	<section class="box special features">
+					<!-- <section class="box special features">
 						<h3 id="heading5"></h3>
 						<div class="features-row">
+							
 							<div class="tab">
 								<button class="tablinks" onclick="openPerformancePlot(event, 'Static')" id="defaultOpen">Static</button>
 								<button class="tablinks" onclick="openPerformancePlot(event, 'Walking')">Walking</button>
