@@ -16,6 +16,11 @@
 				
 				console.log(data.countryName)
 				country=data.countryName;
+				if (country.includes("United States") && country.includes("the"))
+				{
+					console.log("USA has a new string added!")
+				}
+				country=country.substring(0, country.lastIndexOf(" "));
 				var allElements = document.getElementsByClassName("img_class");
 				var allIds = [];
 				for (var i = 0, n = allElements.length; i < n; ++i) {
@@ -31,15 +36,15 @@
 				document.getElementById("main").style.display = "block";
 				document.getElementById("loaderIcon").style.display = "none";
 				document.getElementById("loaderHeader").style.display = "none";
-				document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + data.countryName + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + ".</b>";
-				document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + data.countryName;
-				document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G mmWave)";
-				document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + data.countryName;
-				document.getElementById("heading_sub6_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (5G sub-6 GHz)" ;
-				document.getElementById("heading_sub6_mobility").innerHTML = "5G sub-6 Ghz performance in diverse user mobility scenarios in " + data.countryName;
-				document.getElementById("heading_lte_top10").innerHTML = "Network performance of top 10 cities in " + data.countryName + " (LTE)" ;
-				document.getElementById("heading_lte_mobility").innerHTML = "LTE performance in diverse user mobility scenarios in " + data.countryName;
-				document.getElementById("heading5").innerHTML = "Network perfromance trend in " + data.countryName;
+				document.getElementById("heading0").innerHTML = document.getElementById("heading0").innerHTML + country + " across all the available operators from <b>May 30, 2022 to " + dict[month] + " " + d.getDate() + ", " + d.getFullYear() + ".</b>";
+				document.getElementById("heading_overall").innerHTML = "Overall network performance of all operators in " + country;
+				document.getElementById("heading_mmWave_top10").innerHTML = "Network performance of top 10 cities in " + country + " (5G mmWave)";
+				document.getElementById("heading_mmWave_mobility").innerHTML = "5G mmWave performance in diverse user mobility scenarios in " + country;
+				document.getElementById("heading_sub6_top10").innerHTML = "Network performance of top 10 cities in " + country + " (5G sub-6 GHz)" ;
+				document.getElementById("heading_sub6_mobility").innerHTML = "5G sub-6 Ghz performance in diverse user mobility scenarios in " + country;
+				document.getElementById("heading_lte_top10").innerHTML = "Network performance of top 10 cities in " + country + " (LTE)" ;
+				document.getElementById("heading_lte_mobility").innerHTML = "LTE performance in diverse user mobility scenarios in " + country;
+				document.getElementById("heading5").innerHTML = "Network perfromance trend in " + country;
 				document.getElementById("defaultOpen").click();
 				document.getElementById("defaultOpenOverall").click();
 				document.getElementById("defaultOpenmmWave").click();
